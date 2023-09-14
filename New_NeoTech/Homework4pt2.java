@@ -23,7 +23,7 @@ public class Homework4pt2 extends BaseClass {
 		Thread.sleep(3000);
 		tearDown();
 	 ahmet abi bizimleydi kankam
-		 
+		 fsafasfasfasfsafsafasfasfasfasfasfasfa
 	}
 
 }
