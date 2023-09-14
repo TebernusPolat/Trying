@@ -26,6 +26,7 @@ public class Homework4pt2 extends BaseClass {
 		 fsafasfasfasfsafsafasfasfasfasfasfasfa
 		 
 		 
+		  NOLUYOR BE AW  BU NEDIR KARDESSSSSSSSSSSSSSSSSSSSSSSSS 
 		 
 		 FASULYENIN FAYDALARINI KONUSTUGUMUZ 3.BOLUME HOS GELDINIZ
 	}
