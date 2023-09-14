@@ -1,0 +1,11 @@
+{
+  "browsers": [],
+  "drivers": [
+    {
+      "major_browser_version": "116",
+      "driver_name": "chromedriver",
+      "driver_version": "116.0.5845.96",
+      "driver_ttl": 1694124838
+    }
+  ]
+}

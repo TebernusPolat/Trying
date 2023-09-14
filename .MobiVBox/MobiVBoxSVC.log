@@ -1,0 +1,43 @@
+VirtualBox COM Server 5.0.40_Mobi r115130 win.amd64 (Mar  7 2018 16:20:46) release log
+00:00:00.002991 main     Log opened 2023-04-08T02:17:25.663988700Z
+00:00:00.002991 main     Build Type: release
+00:00:00.002991 main     OS Product: Windows 10
+00:00:00.002991 main     OS Release: 10.0.19044
+00:00:00.002991 main     OS Service Pack: 
+00:00:00.016979 main     DMI Product Name: C SERIES
+00:00:00.025951 main     DMI Product Version: To Be Filled By O.E.M.
+00:00:00.025951 main     Host RAM: 32700MB total, 23449MB available
+00:00:00.025951 main     Executable: C:\Program Files\MobiGame\vbox\MobiVBoxSVC.exe
+00:00:00.025951 main     Process ID: 5352
+00:00:00.025951 main     Package type: WINDOWS_64BITS_GENERIC (OSE)
+00:00:00.027925          Home directory: 'C:\Users\thanh/.MobiVBox'
+00:00:00.027925          Installed Drivers:
+00:00:00.031914          USBLibInit: USB Service not found
+00:00:00.099408          netIfGetBoundAdapters: could not find either 'oracle_VBoxNetLwf' or 'sun_VBoxNetFlt' components (0x1)
+00:00:00.108885          HostDnsMonitor: old information
+00:00:00.108885            no server entries
+00:00:00.108885            no domain set
+00:00:00.108885            no search string entries
+00:00:00.108885          HostDnsMonitor: new information
+00:00:00.108885            server 1: 75.75.75.75
+00:00:00.108885            server 2: 75.75.76.76
+00:00:00.108885            domain: hsd1.al.comcast.net.
+00:00:00.108885            no search string entries
+00:00:00.108885          HostDnsMonitorProxy::notify
+00:00:00.109882          VD: VDInit finished
+00:00:00.109882          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={c47cae9a-f6c2-11e7-aeb4-080027376349} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.118514          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={c3c813b8-f6c2-11e7-aeb4-080027376349} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'mobi-android'}, preserve=false aResultDetail=0
+00:00:00.145839          Saving settings file "C:\Users\thanh\.MobiVBox\mobi-android.vbox" with version "1.15-windows"
+00:00:00.148816          Saving settings file "C:\Users\thanh\.MobiVBox\mobi-android.vbox" with version "1.15-windows"
+00:00:00.154799          Saving settings file "C:\Users\thanh\.MobiVBox\mobi-android.vbox" with version "1.15-windows"
+00:00:00.157792          Saving settings file "C:\Users\thanh\.MobiVBox\mobi-android.vbox" with version "1.15-windows"
+00:00:00.160783          Saving settings file "C:\Users\thanh/.MobiVBox\MobiVBox.xml" with version "1.12-windows"
+00:00:00.197288          Saving settings file "C:\Users\thanh\.MobiVBox\mobi-android.vbox" with version "1.15-windows"
+00:00:01.880772          Saving settings file "C:\Users\thanh\.MobiVBox\mobi-android.vbox" with version "1.15-windows"
+00:00:01.895707          Saving settings file "C:\Users\thanh\.MobiVBox\mobi-android.vbox" with version "1.15-windows"
+00:00:01.908699          Saving settings file "C:\Users\thanh\.MobiVBox\mobi-android.vbox" with version "1.15-windows"
+00:00:01.920974          Saving settings file "C:\Users\thanh\.MobiVBox\mobi-android.vbox" with version "1.15-windows"
+00:00:01.937241          Saving settings file "C:\Users\thanh\.MobiVBox\mobi-android.vbox" with version "1.15-windows"
+00:00:01.953579          Saving settings file "C:\Users\thanh\.MobiVBox\mobi-android.vbox" with version "1.15-windows"
+00:00:01.968700          Saving settings file "C:\Users\thanh\.MobiVBox\mobi-android.vbox" with version "1.15-windows"
+00:00:02.212186          WARNING [COM]: aRC=E_FAIL (0x80004005) aIID={c470b59a-f6c2-11e7-aeb4-080027376349} aComponent={HostWrap} aText={Could not load the Host USB Proxy Service (VERR_FILE_NOT_FOUND). The service might not be installed on the host computer}, preserve=true  aResultDetail=0

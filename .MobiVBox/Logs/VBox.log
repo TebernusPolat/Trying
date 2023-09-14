@@ -1,0 +1,1337 @@
+VirtualBox VM 5.0.40_Mobi r115130 win.amd64 (Jan 26 2018 17:00:32) release log
+00:00:00.047594 Log opened 2023-04-08T02:17:27.755652100Z
+00:00:00.047595 Build Type: release
+00:00:00.047597 OS Product: Windows 10
+00:00:00.047598 OS Release: 10.0.19044
+00:00:00.047598 OS Service Pack: 
+00:00:00.057730 DMI Product Name: C SERIES
+00:00:00.060283 DMI Product Version: To Be Filled By O.E.M.
+00:00:00.060297 Host RAM: 32700MB total, 23296MB available
+00:00:00.060299 Executable: C:\Program Files\MobiGame\vbox\VBoxHeadless.exe
+00:00:00.060299 Process ID: 21312
+00:00:00.060300 Package type: WINDOWS_64BITS_GENERIC (OSE)
+00:00:00.069716 Installed Extension Packs:
+00:00:00.069743   None installed!
+00:00:00.072158 Console: Machine state changed to 'Starting'
+00:00:00.147610 SUP: Loaded MobiVMMR0.sys (C:\Program Files\MobiGame\vbox\MobiVMMR0.sys) at 0xXXXXXXXXXXXXXXXX - ModuleInit at XXXXXXXXXXXXXXXX and ModuleTerm at XXXXXXXXXXXXXXXX using the native ring-0 loader
+00:00:00.147624 SUP: VMMR0EntryEx located at XXXXXXXXXXXXXXXX and VMMR0EntryFast at XXXXXXXXXXXXXXXX
+00:00:00.147628 SUP: windbg> .reload /f C:\Program Files\MobiGame\vbox\MobiVMMR0.sys=0xXXXXXXXXXXXXXXXX
+00:00:00.154646 Guest OS type: 'Linux26'
+00:00:00.161116 fHMForced=true - Lots of RAM
+00:00:00.161127 fHMForced=true - SMP
+00:00:00.183643 File system of 'C:\Users\thanh\AppData\Local\MobiGame\Snapshots' (snapshots) is unknown
+00:00:00.183654 File system of 'C:\Program Files\MobiGame\android\mobi-android-system.vdi' is ntfs
+00:00:00.188779 File system of 'C:\Users\thanh\AppData\Local\MobiGame\mobi-android-userdata.vdi' is ntfs
+00:00:00.236546 Shared clipboard service loaded
+00:00:00.236557 Shared clipboard mode: Off
+00:00:00.250020 Drag and drop service loaded
+00:00:00.250032 Drag and drop mode: Off
+00:00:00.277194 Guest Control service loaded
+00:00:00.280700 ************************* CFGM dump *************************
+00:00:00.280701 [/] (level 0)
+00:00:00.280703   CSAMEnabled       <integer> = 0x0000000000000001 (1)
+00:00:00.280704   CpuExecutionCap   <integer> = 0x0000000000000064 (100)
+00:00:00.280705   EnablePAE         <integer> = 0x0000000000000001 (1)
+00:00:00.280706   HMEnabled         <integer> = 0x0000000000000001 (1)
+00:00:00.280706   MemBalloonSize    <integer> = 0x0000000000000000 (0)
+00:00:00.280707   Name              <string>  = "mobi-android" (cb=13)
+00:00:00.280708   NumCPUs           <integer> = 0x0000000000000004 (4)
+00:00:00.280708   PATMEnabled       <integer> = 0x0000000000000001 (1)
+00:00:00.280709   PageFusionAllowed <integer> = 0x0000000000000000 (0)
+00:00:00.280709   RamHoleSize       <integer> = 0x0000000020000000 (536 870 912, 512 MB)
+00:00:00.280710   RamSize           <integer> = 0x0000000100000000 (4 294 967 296, 4 GB)
+00:00:00.280711   RawR0Enabled      <integer> = 0x0000000000000001 (1)
+00:00:00.280712   RawR3Enabled      <integer> = 0x0000000000000001 (1)
+00:00:00.280712   TimerMillies      <integer> = 0x000000000000000a (10)
+00:00:00.280713   UUID              <bytes>   = "5e c7 5c e2 3e 9f 2a 43 9b b5 d9 05 85 2e 8e 3c" (cb=16)
+00:00:00.280717 
+00:00:00.280718 [/CPUM/] (level 1)
+00:00:00.280718   PortableCpuIdLevel <integer> = 0x0000000000000000 (0)
+00:00:00.280719 
+00:00:00.280719 [/DBGF/] (level 1)
+00:00:00.280719   Path <string>  = "C:\Users\thanh\.MobiVBox/debug/;C:\Users\thanh\.MobiVBox/;C:\Users\thanh/" (cb=74)
+00:00:00.280720 
+00:00:00.280720 [/Devices/] (level 1)
+00:00:00.280721 
+00:00:00.280721 [/Devices/8237A/] (level 2)
+00:00:00.280721 
+00:00:00.280721 [/Devices/8237A/0/] (level 3)
+00:00:00.280722   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.280723 
+00:00:00.280723 [/Devices/GIMDev/] (level 2)
+00:00:00.280723 
+00:00:00.280723 [/Devices/GIMDev/0/] (level 3)
+00:00:00.280724   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.280724 
+00:00:00.280724 [/Devices/VBoxMobiDevice/] (level 2)
+00:00:00.280725 
+00:00:00.280725 [/Devices/VBoxMobiDevice/0/] (level 3)
+00:00:00.280726 
+00:00:00.280726 [/Devices/VBoxMobiDevice/0/Config/] (level 4)
+00:00:00.280726   Init <integer> = 0x0000000000000001 (1)
+00:00:00.280727 
+00:00:00.280727 [/Devices/VMMDev/] (level 2)
+00:00:00.280727 
+00:00:00.280728 [/Devices/VMMDev/0/] (level 3)
+00:00:00.280728   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:00.280729   PCIDeviceNo   <integer> = 0x0000000000000004 (4)
+00:00:00.280729   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:00.280730   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:00.280730 
+00:00:00.280730 [/Devices/VMMDev/0/Config/] (level 4)
+00:00:00.280731   GuestCoreDumpDir <string>  = "C:\Users\thanh\AppData\Local\MobiGame\Snapshots" (cb=48)
+00:00:00.280731   RamSize          <integer> = 0x0000000100000000 (4 294 967 296, 4 GB)
+00:00:00.280732 
+00:00:00.280733 [/Devices/VMMDev/0/LUN#0/] (level 4)
+00:00:00.280733   Driver <string>  = "HGCM" (cb=5)
+00:00:00.280734 
+00:00:00.280734 [/Devices/VMMDev/0/LUN#0/Config/] (level 5)
+00:00:00.280735   Object <integer> = 0x0000000000e9e000 (15 327 232)
+00:00:00.280735 
+00:00:00.280735 [/Devices/VMMDev/0/LUN#999/] (level 4)
+00:00:00.280736   Driver <string>  = "MainStatus" (cb=11)
+00:00:00.280736 
+00:00:00.280737 [/Devices/VMMDev/0/LUN#999/Config/] (level 5)
+00:00:00.280737   First   <integer> = 0x0000000000000000 (0)
+00:00:00.280738   Last    <integer> = 0x0000000000000000 (0)
+00:00:00.280738   papLeds <integer> = 0x0000000000e9ebc0 (15 330 240)
+00:00:00.280739 
+00:00:00.280739 [/Devices/acpi/] (level 2)
+00:00:00.280739 
+00:00:00.280739 [/Devices/acpi/0/] (level 3)
+00:00:00.280740   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:00.280740   PCIDeviceNo   <integer> = 0x0000000000000007 (7)
+00:00:00.280741   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:00.280741   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:00.280742 
+00:00:00.280742 [/Devices/acpi/0/Config/] (level 4)
+00:00:00.280743   CpuHotPlug          <integer> = 0x0000000000000001 (1)
+00:00:00.280743   FdcEnabled          <integer> = 0x0000000000000000 (0)
+00:00:00.280744   HostBusPciAddress   <integer> = 0x0000000000000000 (0)
+00:00:00.280744   HpetEnabled         <integer> = 0x0000000000000000 (0)
+00:00:00.280745   IOAPIC              <integer> = 0x0000000000000001 (1)
+00:00:00.280745   IocPciAddress       <integer> = 0x0000000000010000 (65 536)
+00:00:00.280746   NumCPUs             <integer> = 0x0000000000000004 (4)
+00:00:00.280746   Parallel0IoPortBase <integer> = 0x0000000000000000 (0)
+00:00:00.280747   Parallel0Irq        <integer> = 0x0000000000000000 (0)
+00:00:00.280747   Parallel1IoPortBase <integer> = 0x0000000000000000 (0)
+00:00:00.280748   Parallel1Irq        <integer> = 0x0000000000000000 (0)
+00:00:00.280748   RamHoleSize         <integer> = 0x0000000020000000 (536 870 912, 512 MB)
+00:00:00.280749   RamSize             <integer> = 0x0000000100000000 (4 294 967 296, 4 GB)
+00:00:00.280750   Serial0IoPortBase   <integer> = 0x0000000000000000 (0)
+00:00:00.280750   Serial0Irq          <integer> = 0x0000000000000000 (0)
+00:00:00.280751   Serial1IoPortBase   <integer> = 0x0000000000000000 (0)
+00:00:00.280751   Serial1Irq          <integer> = 0x0000000000000000 (0)
+00:00:00.280752   ShowCpu             <integer> = 0x0000000000000001 (1)
+00:00:00.280752   ShowRtc             <integer> = 0x0000000000000000 (0)
+00:00:00.280753   SmcEnabled          <integer> = 0x0000000000000000 (0)
+00:00:00.280753 
+00:00:00.280753 [/Devices/acpi/0/LUN#0/] (level 4)
+00:00:00.280754   Driver <string>  = "ACPIHost" (cb=9)
+00:00:00.280754 
+00:00:00.280754 [/Devices/acpi/0/LUN#0/Config/] (level 5)
+00:00:00.280755 
+00:00:00.280755 [/Devices/acpi/0/LUN#1/] (level 4)
+00:00:00.280756   Driver <string>  = "ACPICpu" (cb=8)
+00:00:00.280756 
+00:00:00.280756 [/Devices/acpi/0/LUN#1/Config/] (level 5)
+00:00:00.280757 
+00:00:00.280757 [/Devices/acpi/0/LUN#2/] (level 4)
+00:00:00.280757   Driver <string>  = "ACPICpu" (cb=8)
+00:00:00.280758 
+00:00:00.280758 [/Devices/acpi/0/LUN#2/Config/] (level 5)
+00:00:00.280759 
+00:00:00.280759 [/Devices/acpi/0/LUN#3/] (level 4)
+00:00:00.280759   Driver <string>  = "ACPICpu" (cb=8)
+00:00:00.280760 
+00:00:00.280760 [/Devices/acpi/0/LUN#3/Config/] (level 5)
+00:00:00.280760 
+00:00:00.280761 [/Devices/ahci/] (level 2)
+00:00:00.280761 
+00:00:00.280761 [/Devices/ahci/0/] (level 3)
+00:00:00.280762   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:00.280762   PCIDeviceNo   <integer> = 0x000000000000000d (13)
+00:00:00.280763   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:00.280763   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:00.280764 
+00:00:00.280764 [/Devices/ahci/0/Config/] (level 4)
+00:00:00.280764   Bootable  <integer> = 0x0000000000000001 (1)
+00:00:00.280765   PortCount <integer> = 0x0000000000000002 (2)
+00:00:00.280765 
+00:00:00.280765 [/Devices/ahci/0/Config/Port0/] (level 5)
+00:00:00.280766   Hotpluggable        <integer> = 0x0000000000000000 (0)
+00:00:00.280766   NonRotationalMedium <integer> = 0x0000000000000000 (0)
+00:00:00.280767 
+00:00:00.280767 [/Devices/ahci/0/Config/Port1/] (level 5)
+00:00:00.280768   Hotpluggable        <integer> = 0x0000000000000000 (0)
+00:00:00.280768   NonRotationalMedium <integer> = 0x0000000000000000 (0)
+00:00:00.280769 
+00:00:00.280769 [/Devices/ahci/0/LUN#0/] (level 4)
+00:00:00.280769   Driver <string>  = "Block" (cb=6)
+00:00:00.280770 
+00:00:00.280770 [/Devices/ahci/0/LUN#0/AttachedDriver/] (level 5)
+00:00:00.280771   Driver <string>  = "VD" (cb=3)
+00:00:00.280771 
+00:00:00.280771 [/Devices/ahci/0/LUN#0/AttachedDriver/Config/] (level 6)
+00:00:00.280772   BlockCache <integer> = 0x0000000000000001 (1)
+00:00:00.280772   Format     <string>  = "VDI" (cb=4)
+00:00:00.280773   Path       <string>  = "C:\Program Files\MobiGame\android\mobi-android-system.vdi" (cb=58)
+00:00:00.280773   Type       <string>  = "HardDisk" (cb=9)
+00:00:00.280774   UseNewIo   <integer> = 0x0000000000000001 (1)
+00:00:00.280774 
+00:00:00.280774 [/Devices/ahci/0/LUN#0/Config/] (level 5)
+00:00:00.280775   Mountable <integer> = 0x0000000000000000 (0)
+00:00:00.280775   Type      <string>  = "HardDisk" (cb=9)
+00:00:00.280776 
+00:00:00.280776 [/Devices/ahci/0/LUN#1/] (level 4)
+00:00:00.280777   Driver <string>  = "Block" (cb=6)
+00:00:00.280777 
+00:00:00.280777 [/Devices/ahci/0/LUN#1/AttachedDriver/] (level 5)
+00:00:00.280778   Driver <string>  = "VD" (cb=3)
+00:00:00.280778 
+00:00:00.280778 [/Devices/ahci/0/LUN#1/AttachedDriver/Config/] (level 6)
+00:00:00.280779   BlockCache <integer> = 0x0000000000000001 (1)
+00:00:00.280779   Format     <string>  = "VDI" (cb=4)
+00:00:00.280780   Path       <string>  = "C:\Users\thanh\AppData\Local\MobiGame\mobi-android-userdata.vdi" (cb=64)
+00:00:00.280780   Type       <string>  = "HardDisk" (cb=9)
+00:00:00.280781   UseNewIo   <integer> = 0x0000000000000001 (1)
+00:00:00.280781 
+00:00:00.280781 [/Devices/ahci/0/LUN#1/Config/] (level 5)
+00:00:00.280782   Mountable <integer> = 0x0000000000000000 (0)
+00:00:00.280782   Type      <string>  = "HardDisk" (cb=9)
+00:00:00.280783 
+00:00:00.280783 [/Devices/ahci/0/LUN#999/] (level 4)
+00:00:00.280784   Driver <string>  = "MainStatus" (cb=11)
+00:00:00.280784 
+00:00:00.280784 [/Devices/ahci/0/LUN#999/Config/] (level 5)
+00:00:00.280785   DeviceInstance        <string>  = "ahci/0" (cb=7)
+00:00:00.280785   First                 <integer> = 0x0000000000000000 (0)
+00:00:00.280786   Last                  <integer> = 0x0000000000000001 (1)
+00:00:00.280786   pConsole              <integer> = 0x0000000000e9e540 (15 328 576)
+00:00:00.280787   papLeds               <integer> = 0x0000000000e9e8b0 (15 329 456)
+00:00:00.280788   pmapMediumAttachments <integer> = 0x0000000000e9ebe0 (15 330 272)
+00:00:00.280788 
+00:00:00.280788 [/Devices/apic/] (level 2)
+00:00:00.280789 
+00:00:00.280789 [/Devices/apic/0/] (level 3)
+00:00:00.280790   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.280790 
+00:00:00.280790 [/Devices/apic/0/Config/] (level 4)
+00:00:00.280791   IOAPIC  <integer> = 0x0000000000000001 (1)
+00:00:00.280791   NumCPUs <integer> = 0x0000000000000004 (4)
+00:00:00.280792 
+00:00:00.280792 [/Devices/e1000/] (level 2)
+00:00:00.280792 
+00:00:00.280792 [/Devices/i8254/] (level 2)
+00:00:00.280793 
+00:00:00.280793 [/Devices/i8254/0/] (level 3)
+00:00:00.280793 
+00:00:00.280794 [/Devices/i8254/0/Config/] (level 4)
+00:00:00.280794 
+00:00:00.280794 [/Devices/i8259/] (level 2)
+00:00:00.280795 
+00:00:00.280795 [/Devices/i8259/0/] (level 3)
+00:00:00.280796   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.280796 
+00:00:00.280796 [/Devices/i8259/0/Config/] (level 4)
+00:00:00.280797 
+00:00:00.280797 [/Devices/ioapic/] (level 2)
+00:00:00.280797 
+00:00:00.280797 [/Devices/ioapic/0/] (level 3)
+00:00:00.280798   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.280798 
+00:00:00.280798 [/Devices/ioapic/0/Config/] (level 4)
+00:00:00.280799   NumCPUs <integer> = 0x0000000000000004 (4)
+00:00:00.280799 
+00:00:00.280800 [/Devices/mc146818/] (level 2)
+00:00:00.280800 
+00:00:00.280800 [/Devices/mc146818/0/] (level 3)
+00:00:00.280801 
+00:00:00.280801 [/Devices/mc146818/0/Config/] (level 4)
+00:00:00.280801   UseUTC <integer> = 0x0000000000000000 (0)
+00:00:00.280802 
+00:00:00.280802 [/Devices/parallel/] (level 2)
+00:00:00.280802 
+00:00:00.280803 [/Devices/pcarch/] (level 2)
+00:00:00.280803 
+00:00:00.280803 [/Devices/pcarch/0/] (level 3)
+00:00:00.280804   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.280804 
+00:00:00.280804 [/Devices/pcarch/0/Config/] (level 4)
+00:00:00.280805 
+00:00:00.280805 [/Devices/pcbios/] (level 2)
+00:00:00.280805 
+00:00:00.280805 [/Devices/pcbios/0/] (level 3)
+00:00:00.280806   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.280806 
+00:00:00.280806 [/Devices/pcbios/0/Config/] (level 4)
+00:00:00.280807   BootDevice0        <string>  = "FLOPPY" (cb=7)
+00:00:00.280808   BootDevice1        <string>  = "DVD" (cb=4)
+00:00:00.280808   BootDevice2        <string>  = "IDE" (cb=4)
+00:00:00.280808   BootDevice3        <string>  = "NONE" (cb=5)
+00:00:00.280809   FloppyDevice       <string>  = "i82078" (cb=7)
+00:00:00.280809   HardDiskDevice     <string>  = "piix3ide" (cb=9)
+00:00:00.280810   IOAPIC             <integer> = 0x0000000000000001 (1)
+00:00:00.280810   McfgBase           <integer> = 0x0000000000000000 (0)
+00:00:00.280810   McfgLength         <integer> = 0x0000000000000000 (0)
+00:00:00.280811   NumCPUs            <integer> = 0x0000000000000004 (4)
+00:00:00.280811   PXEDebug           <integer> = 0x0000000000000000 (0)
+00:00:00.280812   RamHoleSize        <integer> = 0x0000000020000000 (536 870 912, 512 MB)
+00:00:00.280813   RamSize            <integer> = 0x0000000100000000 (4 294 967 296, 4 GB)
+00:00:00.280814   SataHardDiskDevice <string>  = "ahci" (cb=5)
+00:00:00.280814   SataLUN1           <integer> = 0x0000000000000000 (0)
+00:00:00.280815   SataLUN2           <integer> = 0x0000000000000001 (1)
+00:00:00.280815   UUID               <bytes>   = "5e c7 5c e2 3e 9f 2a 43 9b b5 d9 05 85 2e 8e 3c" (cb=16)
+00:00:00.280816 
+00:00:00.280816 [/Devices/pcbios/0/Config/NetBoot/] (level 5)
+00:00:00.280817 
+00:00:00.280817 [/Devices/pcbios/0/Config/NetBoot/0/] (level 6)
+00:00:00.280818   NIC           <integer> = 0x0000000000000000 (0)
+00:00:00.280818   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:00.280819   PCIDeviceNo   <integer> = 0x0000000000000003 (3)
+00:00:00.280819   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:00.280820 
+00:00:00.280820 [/Devices/pci/] (level 2)
+00:00:00.280820 
+00:00:00.280820 [/Devices/pci/0/] (level 3)
+00:00:00.280821   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.280821 
+00:00:00.280822 [/Devices/pci/0/Config/] (level 4)
+00:00:00.280822   IOAPIC <integer> = 0x0000000000000001 (1)
+00:00:00.280823 
+00:00:00.280823 [/Devices/pckbd/] (level 2)
+00:00:00.280823 
+00:00:00.280823 [/Devices/pckbd/0/] (level 3)
+00:00:00.280824   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.280824 
+00:00:00.280824 [/Devices/pckbd/0/Config/] (level 4)
+00:00:00.280825 
+00:00:00.280825 [/Devices/pckbd/0/LUN#0/] (level 4)
+00:00:00.280826   Driver <string>  = "KeyboardQueue" (cb=14)
+00:00:00.280826 
+00:00:00.280826 [/Devices/pckbd/0/LUN#0/AttachedDriver/] (level 5)
+00:00:00.280827   Driver <string>  = "MainKeyboard" (cb=13)
+00:00:00.280827 
+00:00:00.280827 [/Devices/pckbd/0/LUN#0/AttachedDriver/Config/] (level 6)
+00:00:00.280828   Object <integer> = 0x0000000002e74480 (48 710 784)
+00:00:00.280829 
+00:00:00.280829 [/Devices/pckbd/0/LUN#0/Config/] (level 5)
+00:00:00.280829   QueueSize <integer> = 0x0000000000000040 (64)
+00:00:00.280830 
+00:00:00.280830 [/Devices/pckbd/0/LUN#1/] (level 4)
+00:00:00.280831   Driver <string>  = "MouseQueue" (cb=11)
+00:00:00.280831 
+00:00:00.280831 [/Devices/pckbd/0/LUN#1/AttachedDriver/] (level 5)
+00:00:00.280832   Driver <string>  = "MainMouse" (cb=10)
+00:00:00.280832 
+00:00:00.280832 [/Devices/pckbd/0/LUN#1/AttachedDriver/Config/] (level 6)
+00:00:00.280833   Object <integer> = 0x0000000002e74a80 (48 712 320)
+00:00:00.280834 
+00:00:00.280834 [/Devices/pckbd/0/LUN#1/Config/] (level 5)
+00:00:00.280834   QueueSize <integer> = 0x0000000000000080 (128)
+00:00:00.280835 
+00:00:00.280835 [/Devices/pcnet/] (level 2)
+00:00:00.280836 
+00:00:00.280836 [/Devices/serial/] (level 2)
+00:00:00.280836 
+00:00:00.280836 [/Devices/vga/] (level 2)
+00:00:00.280837 
+00:00:00.280837 [/Devices/vga/0/] (level 3)
+00:00:00.280837   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:00.280838   PCIDeviceNo   <integer> = 0x0000000000000002 (2)
+00:00:00.280838   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:00.280839   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:00.280839 
+00:00:00.280839 [/Devices/vga/0/Config/] (level 4)
+00:00:00.280840   CustomVideoModes <integer> = 0x0000000000000000 (0)
+00:00:00.280840   FadeIn           <integer> = 0x0000000000000000 (0)
+00:00:00.280841   FadeOut          <integer> = 0x0000000000000000 (0)
+00:00:00.280841   HeightReduction  <integer> = 0x0000000000000000 (0)
+00:00:00.280842   LogoFile         <string>  = "" (cb=1)
+00:00:00.280842   LogoTime         <integer> = 0x0000000000000001 (1)
+00:00:00.280842   MonitorCount     <integer> = 0x0000000000000001 (1)
+00:00:00.280843   ShowBootMenu     <integer> = 0x0000000000000002 (2)
+00:00:00.280843   VRamSize         <integer> = 0x0000000001000000 (16 777 216, 16 MB)
+00:00:00.280844 
+00:00:00.280844 [/Devices/vga/0/LUN#0/] (level 4)
+00:00:00.280845   Driver <string>  = "MainDisplay" (cb=12)
+00:00:00.280845 
+00:00:00.280845 [/Devices/vga/0/LUN#0/Config/] (level 5)
+00:00:00.280846   Object <integer> = 0x0000000002e75270 (48 714 352)
+00:00:00.280847 
+00:00:00.280847 [/Devices/vga/0/LUN#999/] (level 4)
+00:00:00.280847   Driver <string>  = "MainStatus" (cb=11)
+00:00:00.280848 
+00:00:00.280848 [/Devices/vga/0/LUN#999/Config/] (level 5)
+00:00:00.280848   First   <integer> = 0x0000000000000000 (0)
+00:00:00.280849   Last    <integer> = 0x0000000000000000 (0)
+00:00:00.280849   papLeds <integer> = 0x0000000000e9ebd8 (15 330 264)
+00:00:00.280850 
+00:00:00.280850 [/Devices/virtio-net/] (level 2)
+00:00:00.280850 
+00:00:00.280851 [/Devices/virtio-net/0/] (level 3)
+00:00:00.280851   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:00.280851   PCIDeviceNo   <integer> = 0x0000000000000003 (3)
+00:00:00.280852   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:00.280852   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:00.280853 
+00:00:00.280853 [/Devices/virtio-net/0/Config/] (level 4)
+00:00:00.280853   CableConnected <integer> = 0x0000000000000001 (1)
+00:00:00.280854   LineSpeed      <integer> = 0x0000000000000000 (0)
+00:00:00.280854   MAC            <bytes>   = "08 00 27 cf 78 3e" (cb=6)
+00:00:00.280855 
+00:00:00.280855 [/Devices/virtio-net/0/LUN#0/] (level 4)
+00:00:00.280856   Driver <string>  = "NAT" (cb=4)
+00:00:00.280856 
+00:00:00.280856 [/Devices/virtio-net/0/LUN#0/Config/] (level 5)
+00:00:00.280857   AliasMode       <integer> = 0x0000000000000000 (0)
+00:00:00.280857   BootFile        <string>  = "mobi-android.pxe" (cb=17)
+00:00:00.280858   DNSProxy        <integer> = 0x0000000000000001 (1)
+00:00:00.280858   Network         <string>  = "10.0.2.0/24" (cb=12)
+00:00:00.280859   PassDomain      <integer> = 0x0000000000000001 (1)
+00:00:00.280859   TFTPPrefix      <string>  = "C:\Users\thanh/.MobiVBox\TFTP" (cb=30)
+00:00:00.280860   UseHostResolver <integer> = 0x0000000000000000 (0)
+00:00:00.280860 
+00:00:00.280860 [/Devices/virtio-net/0/LUN#0/Config/PortForwarding/] (level 6)
+00:00:00.280861 
+00:00:00.280861 [/Devices/virtio-net/0/LUN#0/Config/PortForwarding/0/] (level 7)
+00:00:00.280862   GuestPort <integer> = 0x000000000000ee52 (61 010)
+00:00:00.280863   HostPort  <integer> = 0x000000000000ee52 (61 010)
+00:00:00.280863   Name      <string>  = "Accelerometer sensor" (cb=21)
+00:00:00.280864   Protocol  <string>  = "UDP" (cb=4)
+00:00:00.280864 
+00:00:00.280864 [/Devices/virtio-net/0/LUN#0/Config/PortForwarding/1/] (level 7)
+00:00:00.280865   GuestPort <integer> = 0x000000000000ea60 (60 000)
+00:00:00.280865   HostPort  <integer> = 0x000000000000ea60 (60 000)
+00:00:00.280866   Name      <string>  = "Adb private" (cb=12)
+00:00:00.280866   Protocol  <string>  = "TCP" (cb=4)
+00:00:00.280867 
+00:00:00.280867 [/Devices/virtio-net/0/LUN#0/Config/PortForwarding/2/] (level 7)
+00:00:00.280868   GuestPort <integer> = 0x00000000000015b3 (5 555)
+00:00:00.280868   HostPort  <integer> = 0x00000000000015b3 (5 555)
+00:00:00.280869   Name      <string>  = "Adb public" (cb=11)
+00:00:00.280869   Protocol  <string>  = "TCP" (cb=4)
+00:00:00.280869 
+00:00:00.280870 [/Devices/virtio-net/0/LUN#0/Config/PortForwarding/3/] (level 7)
+00:00:00.280870   GuestPort <integer> = 0x0000000000009c40 (40 000)
+00:00:00.280871   HostPort  <integer> = 0x0000000000009c40 (40 000)
+00:00:00.280871   Name      <string>  = "IVDev" (cb=6)
+00:00:00.280872   Protocol  <string>  = "UDP" (cb=4)
+00:00:00.280872 
+00:00:00.280872 [/Devices/virtio-net/0/LUN#0/Config/PortForwarding/4/] (level 7)
+00:00:00.280873   GuestPort <integer> = 0x000000000000f294 (62 100)
+00:00:00.280873   HostPort  <integer> = 0x000000000000f294 (62 100)
+00:00:00.280874   Name      <string>  = "Mobi Service" (cb=13)
+00:00:00.280874   Protocol  <string>  = "TCP" (cb=4)
+00:00:00.280875 
+00:00:00.280875 [/Devices/virtio-net/0/LUN#999/] (level 4)
+00:00:00.280875   Driver <string>  = "MainStatus" (cb=11)
+00:00:00.280876 
+00:00:00.280876 [/Devices/virtio-net/0/LUN#999/Config/] (level 5)
+00:00:00.280876   First   <integer> = 0x0000000000000000 (0)
+00:00:00.280877   Last    <integer> = 0x0000000000000000 (0)
+00:00:00.280877   papLeds <integer> = 0x0000000000e9eaa0 (15 329 952)
+00:00:00.280878 
+00:00:00.280878 [/EM/] (level 1)
+00:00:00.280878   TripleFaultReset <integer> = 0x0000000000000000 (0)
+00:00:00.280879 
+00:00:00.280879 [/GIM/] (level 1)
+00:00:00.280879   Provider <string>  = "KVM" (cb=4)
+00:00:00.280880 
+00:00:00.280880 [/HM/] (level 1)
+00:00:00.280880   64bitEnabled       <integer> = 0x0000000000000000 (0)
+00:00:00.280881   EnableLargePages   <integer> = 0x0000000000000001 (1)
+00:00:00.280881   EnableNestedPaging <integer> = 0x0000000000000001 (1)
+00:00:00.280882   EnableUX           <integer> = 0x0000000000000001 (1)
+00:00:00.280882   EnableVPID         <integer> = 0x0000000000000001 (1)
+00:00:00.280883   Exclusive          <integer> = 0x0000000000000000 (0)
+00:00:00.280883   HMForced           <integer> = 0x0000000000000001 (1)
+00:00:00.280884 
+00:00:00.280884 [/MM/] (level 1)
+00:00:00.280884   CanUseLargerHeap <integer> = 0x0000000000000000 (0)
+00:00:00.280884 
+00:00:00.280885 [/PDM/] (level 1)
+00:00:00.280885 
+00:00:00.280885 [/PDM/AsyncCompletion/] (level 2)
+00:00:00.280886 
+00:00:00.280886 [/PDM/AsyncCompletion/File/] (level 3)
+00:00:00.280886 
+00:00:00.280887 [/PDM/AsyncCompletion/File/BwGroups/] (level 4)
+00:00:00.280887 
+00:00:00.280887 [/PDM/BlkCache/] (level 2)
+00:00:00.280888   CacheSize <integer> = 0x0000000000500000 (5 242 880, 5 MB)
+00:00:00.280889 
+00:00:00.280889 [/PDM/Devices/] (level 2)
+00:00:00.280889 
+00:00:00.280889 [/PDM/Devices/VBoxMobiDevice/] (level 3)
+00:00:00.280890   Path <string>  = "C:\Program Files\MobiGame\vbox\VBoxMobiDevice.dll" (cb=50)
+00:00:00.280890 
+00:00:00.280890 [/PDM/Drivers/] (level 2)
+00:00:00.280891 
+00:00:00.280891 [/PDM/Drivers/VBoxC/] (level 3)
+00:00:00.280891   Path <string>  = "VBoxC" (cb=6)
+00:00:00.280892 
+00:00:00.280892 [/PDM/NetworkShaper/] (level 2)
+00:00:00.280892 
+00:00:00.280893 [/PDM/NetworkShaper/BwGroups/] (level 3)
+00:00:00.280893 
+00:00:00.280893 [/TM/] (level 1)
+00:00:00.280894   UTCOffset <integer> = 0x0000000000000000 (0)
+00:00:00.280894 
+00:00:00.280894 ********************* End of CFGM dump **********************
+00:00:00.280902 VM: fHMEnabled=true  (configured) fRecompileUser=false fRecompileSupervisor=false
+00:00:00.280903 VM: fRawRing1Enabled=false CSAM=true  PATM=true 
+00:00:00.281740 HM: HMR3Init: VT-x w/ nested paging and unrestricted guest execution hw support
+00:00:00.281967 MM: cbHyperHeap=0x140000 (1310720)
+00:00:00.284370 CPUM: fXStateHostMask=0x7; initial: 0x7; host XCR0=0x1f
+00:00:00.288932 CPUM: Matched host CPU INTEL 0x6/0x9e/0xa Intel_Atom_Unknown with CPU DB entry 'Intel Atom 330 1.60GHz' (INTEL 0x6/0x1c/0x2 Intel_Atom_Bonnell)
+00:00:00.289225 CPUM: MSR fudge: 0x00000277 IA32_PAT
+00:00:00.289232 CPUM: MSR fudge: 0xc0000103 AMD64_TSC_AUX
+00:00:00.289435 CPUM: SetGuestCpuIdFeature: Enabled PAE
+00:00:00.291905 PGM: HCPhysInterPD=000000007c714000 HCPhysInterPaePDPT=000000007c717000 HCPhysInterPaePML4=000000007c719000
+00:00:00.291914 PGM: apInterPTs={000000007c715000,000000007c716000} apInterPaePTs={00000004885af000,00000004104b0000} apInterPaePDs={00000002093b1000,0000000029bb2000,00000002476b3000,0000000220ab4000} pInterPaePDPT64=000000007c718000
+00:00:00.291920 PGM: Host paging mode: AMD64+NX
+00:00:00.291928 PGM: PGMPool: cMaxPages=2096 (u64MaxPages=2084)
+00:00:00.291933 PGM: pgmR3PoolInit: cMaxPages=0x830 cMaxUsers=0x1060 cMaxPhysExts=0x1060 fCacheEnable=true 
+00:00:00.326006 TM: GIP - u32Mode=3 (Invariant) u32UpdateHz=93 u32UpdateIntervalNS=10734900 enmUseTscDelta=2 (Pratically Zero) fGetGipCpu=0x3 cCpus=12
+00:00:00.326020 TM: GIP - u64CpuHz=3 696 002 366 (0xdc4c853e)  SUPGetCpuHzFromGip => 3 696 002 366
+00:00:00.326026 TM: GIP - CPU: iCpuSet=0x0 idCpu=0x0 idApic=0x0 iGipCpu=0x0 i64TSCDelta=0 enmState=3 u64CpuHz=3696002366(*) cErrors=0
+00:00:00.326031 TM: GIP - CPU: iCpuSet=0x1 idCpu=0x1 idApic=0x1 iGipCpu=0x6 i64TSCDelta=0 enmState=3 u64CpuHz=3696002327(*) cErrors=0
+00:00:00.326034 TM: GIP - CPU: iCpuSet=0x2 idCpu=0x2 idApic=0x2 iGipCpu=0x4 i64TSCDelta=0 enmState=3 u64CpuHz=3696002241(*) cErrors=0
+00:00:00.326038 TM: GIP - CPU: iCpuSet=0x3 idCpu=0x3 idApic=0x3 iGipCpu=0x2 i64TSCDelta=0 enmState=3 u64CpuHz=3696001027(*) cErrors=0
+00:00:00.326042 TM: GIP - CPU: iCpuSet=0x4 idCpu=0x4 idApic=0x4 iGipCpu=0xb i64TSCDelta=0 enmState=3 u64CpuHz=3696002308(*) cErrors=0
+00:00:00.326045 TM: GIP - CPU: iCpuSet=0x5 idCpu=0x5 idApic=0x5 iGipCpu=0x8 i64TSCDelta=0 enmState=3 u64CpuHz=3696002391(*) cErrors=0
+00:00:00.326049 TM: GIP - CPU: iCpuSet=0x6 idCpu=0x6 idApic=0x6 iGipCpu=0xa i64TSCDelta=0 enmState=3 u64CpuHz=3696002274(*) cErrors=0
+00:00:00.326052 TM: GIP - CPU: iCpuSet=0x7 idCpu=0x7 idApic=0x7 iGipCpu=0x9 i64TSCDelta=0 enmState=3 u64CpuHz=3696002369(*) cErrors=0
+00:00:00.326056 TM: GIP - CPU: iCpuSet=0x8 idCpu=0x8 idApic=0x8 iGipCpu=0x3 i64TSCDelta=0 enmState=3 u64CpuHz=3696002347(*) cErrors=0
+00:00:00.326059 TM: GIP - CPU: iCpuSet=0x9 idCpu=0x9 idApic=0x9 iGipCpu=0x1 i64TSCDelta=0 enmState=3 u64CpuHz=3695996381(*) cErrors=0
+00:00:00.326063 TM: GIP - CPU: iCpuSet=0xa idCpu=0xa idApic=0xa iGipCpu=0x5 i64TSCDelta=0 enmState=3 u64CpuHz=3696002293(*) cErrors=0
+00:00:00.326066 TM: GIP - CPU: iCpuSet=0xb idCpu=0xb idApic=0xb iGipCpu=0x7 i64TSCDelta=0 enmState=3 u64CpuHz=3696002342(*) cErrors=0
+00:00:00.326101 TM: cTSCTicksPerSecond=3 696 002 366 (0xdc4c853e) enmTSCMode=1 (VirtTscEmulated)
+00:00:00.326102 TM: TSCTiedToExecution=false TSCNotTiedToHalt=false
+00:00:00.326803 VMM: CoreCode: R3=0000000003c70000 R0=XXXXXXXXXXXXXXXX RC=a0ff1000 Phys=000000007c6ff000 cb=0x1000
+00:00:00.328062 GIM: Using provider 'KVM' (Implementation version: 0)
+00:00:00.328072 CPUM: SetGuestCpuIdFeature: Enabled Hypervisor Present bit
+00:00:00.328147 AIOMgr: Default manager type is 'Async'
+00:00:00.328154 AIOMgr: Default file backend is 'NonBuffered'
+00:00:00.328382 BlkCache: Cache successfully initialized. Cache size is 5242880 bytes
+00:00:00.328389 BlkCache: Cache commit interval is 10000 ms
+00:00:00.328392 BlkCache: Cache commit threshold is 2621440 bytes
+00:00:00.375533 VBoxMobiDevice: VBoxMobi library opened
+00:00:00.375550 VBoxMobiDevice:    Dev. version: 0.1
+00:00:00.375555 VBoxMobiDevice:    VBox version: 0x00050000
+00:00:00.375558 VBoxMobiDevice:    PDM  version: 0xffe30010
+00:00:00.376253 PcBios: [SMP] BIOS with 4 CPUs
+00:00:00.376715 PcBios: MPS table at 000e1300
+00:00:00.398719 SUP: Loaded MobiVBoxDDR0.sys (C:\Program Files\MobiGame\vbox\MobiVBoxDDR0.sys) at 0xXXXXXXXXXXXXXXXX - ModuleInit at XXXXXXXXXXXXXXXX and ModuleTerm at XXXXXXXXXXXXXXXX using the native ring-0 loader
+00:00:00.398731 SUP: windbg> .reload /f C:\Program Files\MobiGame\vbox\MobiVBoxDDR0.sys=0xXXXXXXXXXXXXXXXX
+00:00:00.414612 SUP: Loaded MobiVBoxDD2R0.sys (C:\Program Files\MobiGame\vbox\MobiVBoxDD2R0.sys) at 0xXXXXXXXXXXXXXXXX - ModuleInit at XXXXXXXXXXXXXXXX and ModuleTerm at XXXXXXXXXXXXXXXX using the native ring-0 loader
+00:00:00.414624 SUP: windbg> .reload /f C:\Program Files\MobiGame\vbox\MobiVBoxDD2R0.sys=0xXXXXXXXXXXXXXXXX
+00:00:00.414658 APIC: Activating Local APIC
+00:00:00.414663 CPUM: SetGuestCpuIdFeature: Enabled APIC
+00:00:00.415225 PIT: mode=3 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:00:00.433316 Shared Folders service loaded
+00:00:00.452073 DrvBlock: Flushes will be ignored
+00:00:00.452084 DrvBlock: Async flushes will be passed to the disk
+00:00:00.452381 VD: VDInit finished
+00:00:00.452965 AIOMgr: Endpoint for file 'C:\Program Files\MobiGame\android\mobi-android-system.vdi' (flags 000c0723) created successfully
+00:00:00.453521 VD: Opening the disk took 1282130 ns
+00:00:00.453550 AHCI: LUN#0: disk, PCHS=2846/16/63, total number of sectors 2869248
+00:00:00.453558 AHCI: LUN#0: using async I/O
+00:00:00.453722 DrvBlock: Flushes will be ignored
+00:00:00.453729 DrvBlock: Async flushes will be passed to the disk
+00:00:00.454187 AIOMgr: Endpoint for file 'C:\Users\thanh\AppData\Local\MobiGame\mobi-android-userdata.vdi' (flags 000c0723) created successfully
+00:00:00.455005 VD: Opening the disk took 1262190 ns
+00:00:00.455025 AHCI: LUN#1: disk, PCHS=16383/16/63, total number of sectors 67110912
+00:00:00.455032 AHCI: LUN#1: using async I/O
+00:00:00.455288 AHCI#0: Reset the HBA
+00:00:00.461244 NAT: Guest address guess set to 10.0.2.15 by initialization
+00:00:00.467783 NAT: DNS#0: 75.75.75.75
+00:00:00.467798 NAT: DNS#1: 75.75.76.76
+00:00:00.468328 NAT: Set redirect UDP 0.0.0.0:61010 -> 0.0.0.0:61010
+00:00:00.468399 NAT: Set redirect TCP 0.0.0.0:60000 -> 0.0.0.0:60000
+00:00:00.468446 NAT: Set redirect TCP 0.0.0.0:5555 -> 0.0.0.0:5555
+00:00:00.468477 NAT: Set redirect UDP 0.0.0.0:40000 -> 0.0.0.0:40000
+00:00:00.468519 NAT: Set redirect TCP 0.0.0.0:62100 -> 0.0.0.0:62100
+00:00:00.469296 VBoxMobiDevice: Constructing VBoxMobi Device...
+00:00:00.469435 VBoxMobiDevice: Device constructed! Constructor finishes.
+00:00:00.470597 AIOMgr: Async flushes not supported
+00:00:00.470637 PcBios: SATA LUN#0 LCHS=711/64/63
+00:00:00.470648 PcBios: SATA LUN#1 LCHS=1024/255/63
+00:00:00.470886 PGM: The CPU physical address width is 39 bits
+00:00:00.470893 PGM: PGMR3InitFinalize: 4 MB PSE mask 0000007fffffffff
+00:00:00.471018 TM: TMR3InitFinalize: fTSCModeSwitchAllowed=true 
+00:00:00.489883 VMM: Thread-context hooks unavailable
+00:00:00.492142 HM: Using VT-x implementation 2.0!
+00:00:00.492143 HM: Host CR4                        = 0x370678
+00:00:00.492145 HM: Host EFER                       = 0xd01
+00:00:00.492145 HM: MSR_IA32_SMM_MONITOR_CTL        = 0x0
+00:00:00.492145 HM: MSR_IA32_FEATURE_CONTROL        = 0x5
+00:00:00.492148 HM: MSR_IA32_VMX_BASIC_INFO         = 0xda040000000004
+00:00:00.492149 HM:   VMCS id                             = 0x4
+00:00:00.492151 HM:   VMCS size                           = 1024 bytes
+00:00:00.492151 HM:   VMCS physical address limit         = None
+00:00:00.492152 HM:   VMCS memory type                    = 0x6
+00:00:00.492152 HM:   Dual-monitor treatment support      = true 
+00:00:00.492153 HM:   OUTS & INS instruction-info         = true 
+00:00:00.492153 HM: Max resume loops                = 1024
+00:00:00.492153 HM: MSR_IA32_VMX_PINBASED_CTLS      = 0x7f00000016
+00:00:00.492154 HM:   VMX_VMCS_CTRL_PIN_EXEC_EXT_INT_EXIT
+00:00:00.492158 HM:   VMX_VMCS_CTRL_PIN_EXEC_NMI_EXIT
+00:00:00.492159 HM:   VMX_VMCS_CTRL_PIN_EXEC_VIRTUAL_NMI
+00:00:00.492159 HM:   VMX_VMCS_CTRL_PIN_EXEC_PREEMPT_TIMER
+00:00:00.492159 HM: MSR_IA32_VMX_PROCBASED_CTLS     = 0xfff9fffe0401e172
+00:00:00.492160 HM:   VMX_VMCS_CTRL_PROC_EXEC_INT_WINDOW_EXIT
+00:00:00.492160 HM:   VMX_VMCS_CTRL_PROC_EXEC_USE_TSC_OFFSETTING
+00:00:00.492160 HM:   VMX_VMCS_CTRL_PROC_EXEC_HLT_EXIT
+00:00:00.492161 HM:   VMX_VMCS_CTRL_PROC_EXEC_INVLPG_EXIT
+00:00:00.492161 HM:   VMX_VMCS_CTRL_PROC_EXEC_MWAIT_EXIT
+00:00:00.492161 HM:   VMX_VMCS_CTRL_PROC_EXEC_RDPMC_EXIT
+00:00:00.492161 HM:   VMX_VMCS_CTRL_PROC_EXEC_RDTSC_EXIT
+00:00:00.492162 HM:   VMX_VMCS_CTRL_PROC_EXEC_CR3_LOAD_EXIT (must be set)
+00:00:00.492162 HM:   VMX_VMCS_CTRL_PROC_EXEC_CR3_STORE_EXIT (must be set)
+00:00:00.492162 HM:   VMX_VMCS_CTRL_PROC_EXEC_CR8_LOAD_EXIT
+00:00:00.492163 HM:   VMX_VMCS_CTRL_PROC_EXEC_CR8_STORE_EXIT
+00:00:00.492163 HM:   VMX_VMCS_CTRL_PROC_EXEC_USE_TPR_SHADOW
+00:00:00.492163 HM:   VMX_VMCS_CTRL_PROC_EXEC_NMI_WINDOW_EXIT
+00:00:00.492163 HM:   VMX_VMCS_CTRL_PROC_EXEC_MOV_DR_EXIT
+00:00:00.492164 HM:   VMX_VMCS_CTRL_PROC_EXEC_UNCOND_IO_EXIT
+00:00:00.492164 HM:   VMX_VMCS_CTRL_PROC_EXEC_USE_IO_BITMAPS
+00:00:00.492164 HM:   VMX_VMCS_CTRL_PROC_EXEC_MONITOR_TRAP_FLAG
+00:00:00.492166 HM:   VMX_VMCS_CTRL_PROC_EXEC_USE_MSR_BITMAPS
+00:00:00.492166 HM:   VMX_VMCS_CTRL_PROC_EXEC_MONITOR_EXIT
+00:00:00.492167 HM:   VMX_VMCS_CTRL_PROC_EXEC_PAUSE_EXIT
+00:00:00.492167 HM:   VMX_VMCS_CTRL_PROC_EXEC_USE_SECONDARY_EXEC_CTRL
+00:00:00.492167 HM: MSR_IA32_VMX_PROCBASED_CTLS2    = 0x5ffcff00000000
+00:00:00.492168 HM:   VMX_VMCS_CTRL_PROC_EXEC2_VIRT_APIC
+00:00:00.492168 HM:   VMX_VMCS_CTRL_PROC_EXEC2_EPT
+00:00:00.492168 HM:   VMX_VMCS_CTRL_PROC_EXEC2_DESCRIPTOR_TABLE_EXIT
+00:00:00.492169 HM:   VMX_VMCS_CTRL_PROC_EXEC2_RDTSCP
+00:00:00.492169 HM:   VMX_VMCS_CTRL_PROC_EXEC2_VIRT_X2APIC
+00:00:00.492169 HM:   VMX_VMCS_CTRL_PROC_EXEC2_VPID
+00:00:00.492169 HM:   VMX_VMCS_CTRL_PROC_EXEC2_WBINVD_EXIT
+00:00:00.492170 HM:   VMX_VMCS_CTRL_PROC_EXEC2_UNRESTRICTED_GUEST
+00:00:00.492170 HM:   VMX_VMCS_CTRL_PROC_EXEC2_PAUSE_LOOP_EXIT
+00:00:00.492170 HM:   VMX_VMCS_CTRL_PROC_EXEC2_RDRAND_EXIT
+00:00:00.492170 HM:   VMX_VMCS_CTRL_PROC_EXEC2_INVPCID
+00:00:00.492171 HM:   VMX_VMCS_CTRL_PROC_EXEC2_VMFUNC
+00:00:00.492171 HM:   VMX_VMCS_CTRL_PROC_EXEC2_VMCS_SHADOWING
+00:00:00.492171 HM:   VMX_VMCS_CTRL_PROC_EXEC2_RDSEED_EXIT
+00:00:00.492171 HM:   VMX_VMCS_CTRL_PROC_EXEC2_EPT_VE
+00:00:00.492173 HM:   VMX_VMCS_CTRL_PROC_EXEC2_XSAVES
+00:00:00.492173 HM: MSR_IA32_VMX_ENTRY_CTLS         = 0x3ffff000011ff
+00:00:00.492174 HM:   VMX_VMCS_CTRL_ENTRY_LOAD_DEBUG (must be set)
+00:00:00.492174 HM:   VMX_VMCS_CTRL_ENTRY_IA32E_MODE_GUEST
+00:00:00.492174 HM:   VMX_VMCS_CTRL_ENTRY_ENTRY_SMM
+00:00:00.492176 HM:   VMX_VMCS_CTRL_ENTRY_DEACTIVATE_DUALMON
+00:00:00.492176 HM:   VMX_VMCS_CTRL_ENTRY_LOAD_GUEST_PERF_MSR
+00:00:00.492177 HM:   VMX_VMCS_CTRL_ENTRY_LOAD_GUEST_PAT_MSR
+00:00:00.492177 HM:   VMX_VMCS_CTRL_ENTRY_LOAD_GUEST_EFER_MSR
+00:00:00.492177 HM: MSR_IA32_VMX_EXIT_CTLS          = 0x1ffffff00036dff
+00:00:00.492178 HM:   VMX_VMCS_CTRL_EXIT_SAVE_DEBUG (must be set)
+00:00:00.492178 HM:   VMX_VMCS_CTRL_EXIT_HOST_ADDR_SPACE_SIZE
+00:00:00.492178 HM:   VMX_VMCS_CTRL_EXIT_LOAD_PERF_MSR
+00:00:00.492178 HM:   VMX_VMCS_CTRL_EXIT_ACK_EXT_INT
+00:00:00.492179 HM:   VMX_VMCS_CTRL_EXIT_SAVE_GUEST_PAT_MSR
+00:00:00.492179 HM:   VMX_VMCS_CTRL_EXIT_LOAD_HOST_PAT_MSR
+00:00:00.492179 HM:   VMX_VMCS_CTRL_EXIT_SAVE_GUEST_EFER_MSR
+00:00:00.492179 HM:   VMX_VMCS_CTRL_EXIT_LOAD_HOST_EFER_MSR
+00:00:00.492180 HM:   VMX_VMCS_CTRL_EXIT_SAVE_VMX_PREEMPT_TIMER
+00:00:00.492180 HM: MSR_IA32_VMX_EPT_VPID_CAP       = 0xf0106734141
+00:00:00.492180 HM:   MSR_IA32_VMX_EPT_VPID_CAP_RWX_X_ONLY
+00:00:00.492181 HM:   MSR_IA32_VMX_EPT_VPID_CAP_GAW_48_BITS
+00:00:00.492181 HM:   MSR_IA32_VMX_EPT_VPID_CAP_EMT_UC
+00:00:00.492181 HM:   MSR_IA32_VMX_EPT_VPID_CAP_EMT_WB
+00:00:00.492181 HM:   MSR_IA32_VMX_EPT_VPID_CAP_SP_21_BITS
+00:00:00.492182 HM:   MSR_IA32_VMX_EPT_VPID_CAP_SP_30_BITS
+00:00:00.492182 HM:   MSR_IA32_VMX_EPT_VPID_CAP_INVEPT
+00:00:00.492182 HM:   MSR_IA32_VMX_EPT_VPID_CAP_INVEPT_SINGLE_CONTEXT
+00:00:00.492182 HM:   MSR_IA32_VMX_EPT_VPID_CAP_INVEPT_ALL_CONTEXTS
+00:00:00.492183 HM:   MSR_IA32_VMX_EPT_VPID_CAP_INVVPID
+00:00:00.492183 HM:   MSR_IA32_VMX_EPT_VPID_CAP_INVVPID_INDIV_ADDR
+00:00:00.492183 HM:   MSR_IA32_VMX_EPT_VPID_CAP_INVVPID_SINGLE_CONTEXT
+00:00:00.492183 HM:   MSR_IA32_VMX_EPT_VPID_CAP_INVVPID_ALL_CONTEXTS
+00:00:00.492184 HM:   MSR_IA32_VMX_EPT_VPID_CAP_INVVPID_SINGLE_CONTEXT_RETAIN_GLOBALS
+00:00:00.492184 HM: MSR_IA32_VMX_MISC               = 0x7004c1e7
+00:00:00.492184 HM:   MSR_IA32_VMX_MISC_PREEMPT_TSC_BIT      = 0x7
+00:00:00.492185 HM:   MSR_IA32_VMX_MISC_STORE_EFERLMA_VMEXIT = true 
+00:00:00.492185 HM:   MSR_IA32_VMX_MISC_ACTIVITY_STATES      = 0x7
+00:00:00.492186 HM:   MSR_IA32_VMX_MISC_CR3_TARGET           = 0x4
+00:00:00.492186 HM:   MSR_IA32_VMX_MISC_MAX_MSR              = 512
+00:00:00.492186 HM:   MSR_IA32_VMX_MISC_RDMSR_SMBASE_MSR_SMM = true 
+00:00:00.492187 HM:   MSR_IA32_VMX_MISC_SMM_MONITOR_CTL_B2   = true 
+00:00:00.492187 HM:   MSR_IA32_VMX_MISC_VMWRITE_VMEXIT_INFO  = true 
+00:00:00.492188 HM:   MSR_IA32_VMX_MISC_MSEG_ID              = 0x0
+00:00:00.492188 HM: MSR_IA32_VMX_CR0_FIXED0         = 0x80000021
+00:00:00.492188 HM: MSR_IA32_VMX_CR0_FIXED1         = 0xffffffff
+00:00:00.492189 HM: MSR_IA32_VMX_CR4_FIXED0         = 0x2000
+00:00:00.492189 HM: MSR_IA32_VMX_CR4_FIXED1         = 0x3767ff
+00:00:00.492189 HM: MSR_IA32_VMX_VMCS_ENUM          = 0x2e
+00:00:00.492190 HM:   MSR_IA32_VMX_VMCS_ENUM_HIGHEST_INDEX   = 0x17
+00:00:00.492190 HM: MSR_A32_VMX_VMFUNC              = 0x1
+00:00:00.492190 HM:   VMX_VMCS_CTRL_VMFUNC_EPTP_SWITCHING
+00:00:00.492191 HM: APIC-access page physaddr       = 0x000000007c6fe000
+00:00:00.492191 HM: VCPU  0: MSR bitmap physaddr    = 0x000000007c6fb000
+00:00:00.492192 HM: VCPU  0: VMCS physaddr          = 0x000000007c6fd000
+00:00:00.492193 HM: VCPU  1: MSR bitmap physaddr    = 0x000000007c6f6000
+00:00:00.492193 HM: VCPU  1: VMCS physaddr          = 0x000000007c6f8000
+00:00:00.492194 HM: VCPU  2: MSR bitmap physaddr    = 0x000000007c6f1000
+00:00:00.492194 HM: VCPU  2: VMCS physaddr          = 0x000000007c6f3000
+00:00:00.492195 HM: VCPU  3: MSR bitmap physaddr    = 0x000000007c6ec000
+00:00:00.492195 HM: VCPU  3: VMCS physaddr          = 0x000000007c6ee000
+00:00:00.492196 HM: Guest support: 32-bit only
+00:00:00.492202 HM: Supports VMCS EFER fields       = true 
+00:00:00.492203 HM: VMX enabled!
+00:00:00.492205 CPUM: SetGuestCpuIdFeature: Enabled SYSENTER/EXIT
+00:00:00.492205 CPUM: SetGuestCpuIdFeature: Enabled NX
+00:00:00.492205 HM: Nested paging enabled!
+00:00:00.492206 HM:   EPT flush type                = VMXFLUSHEPT_SINGLE_CONTEXT
+00:00:00.492206 HM: Unrestricted guest execution enabled!
+00:00:00.492206 HM: Large page support enabled
+00:00:00.492207 HM: VPID enabled!
+00:00:00.492207 HM:   VPID flush type               = VMXFLUSHVPID_SINGLE_CONTEXT
+00:00:00.492207 HM: VMX-preemption timer enabled (cPreemptTimerShift=7)
+00:00:00.492208 HM: VT-x/AMD-V init method: LOCAL
+00:00:00.492208 VMM: fUsePeriodicPreemptionTimers=false
+00:00:00.492275 CPUM: Logical host processors: 12 present, 12 max, 12 online, online mask: 0000000000000fff
+00:00:00.492276 CPUM: Physical host cores: 6
+00:00:00.492276 ************************* CPUID dump ************************
+00:00:00.492281          Raw Standard CPUID Leaves
+00:00:00.492281      Leaf/sub-leaf  eax      ebx      ecx      edx
+00:00:00.492550 Gst: 00000000/0000  00000016 756e6547 6c65746e 49656e69
+00:00:00.492552 Hst:                00000016 756e6547 6c65746e 49656e69
+00:00:00.492553 Gst: 00000001/0000  000906ea 00040800 d6d82203 178bfbff
+00:00:00.492554 Hst:                000906ea 02100800 7ffafbff bfebfbff
+00:00:00.492554 Gst: 00000002/0000  76036301 00f0b5ff 00000000 00c30000
+00:00:00.492555 Hst:                76036301 00f0b5ff 00000000 00c30000
+00:00:00.492556 Gst: 00000003/0000  00000000 00000000 00000000 00000000
+00:00:00.492557 Hst:                00000000 00000000 00000000 00000000
+00:00:00.492557 Gst: 00000004/0000  0c000121 01c0003f 0000003f 00000000
+00:00:00.492558 Hst:                1c004121 01c0003f 0000003f 00000000
+00:00:00.492558 Gst: 00000004/0001  0c000122 01c0003f 0000003f 00000000
+00:00:00.492559 Hst:                1c004122 01c0003f 0000003f 00000000
+00:00:00.492560 Gst: 00000004/0002  0c000143 00c0003f 000003ff 00000000
+00:00:00.492560 Hst:                1c004143 00c0003f 000003ff 00000000
+00:00:00.492561 Gst: 00000004/0003  0c000163 03c0003f 00002fff 00000006
+00:00:00.492562 Hst:                1c03c163 03c0003f 00002fff 00000006
+00:00:00.492562 Gst: 00000004/0004  0c000000 00000000 00000000 00000000
+00:00:00.492563 Hst:                00000000 00000000 00000000 00000000
+00:00:00.492563 Gst: 00000005/0000  00000000 00000000 00000000 00000000
+00:00:00.492564 Hst:                00000040 00000040 00000003 11142120
+00:00:00.492565 Gst: 00000006/0000  00000000 00000000 00000000 00000000
+00:00:00.492565 Hst:                000027f7 00000002 00000009 00000000
+00:00:00.492566 Gst: 00000007/0000  00000000 00842000 00000000 00000000
+00:00:00.492566 Hst:                00000000 029c6fbf 40000000 9c002400
+00:00:00.492567 Gst: 00000007/0001  00000000 00000000 00000000 00000000
+00:00:00.492567 Hst:                00000000 00000000 00000000 00000000
+00:00:00.492568 Gst: 00000008/0000  00000000 00000000 00000000 00000000
+00:00:00.492568 Hst:                00000000 00000000 00000000 00000000
+00:00:00.492569 Gst: 00000009/0000  00000000 00000000 00000000 00000000
+00:00:00.492569 Hst:                00000000 00000000 00000000 00000000
+00:00:00.492570 Gst: 0000000a/0000  00000000 00000000 00000000 00000000
+00:00:00.492570 Hst:                07300404 00000000 00000000 00000603
+00:00:00.492571 Gst: 0000000b/0000  00000000 00000001 00000100 00000000
+00:00:00.492571 Hst:                00000001 00000002 00000100 00000002
+00:00:00.492572 Gst: 0000000b/0001  00000002 00000004 00000201 00000000
+00:00:00.492572 Hst:                00000004 0000000c 00000201 00000002
+00:00:00.492573 Gst: 0000000b/0002  00000000 00000000 00000002 00000000
+00:00:00.492573 Hst:                00000000 00000000 00000002 00000002
+00:00:00.492574 Gst: 0000000c/0000  00000000 00000000 00000000 00000000
+00:00:00.492574 Hst:                00000000 00000000 00000000 00000000
+00:00:00.492575 Gst: 0000000d/0000  00000007 00000440 00000440 00000000
+00:00:00.492575 Hst:                0000001f 00000440 00000440 00000000
+00:00:00.492576 Gst: 0000000d/0001  00000000 00000440 00000000 00000000
+00:00:00.492576 Hst:                0000000f 00000440 00000100 00000000
+00:00:00.492577 Gst: 0000000d/0002  00000100 00000240 00000000 00000000
+00:00:00.492577 Hst:                00000100 00000240 00000000 00000000
+00:00:00.492578 Gst: 0000000d/0003  00000000 00000000 00000000 00000000
+00:00:00.492578 Hst:                00000040 000003c0 00000000 00000000
+00:00:00.492579 Gst: 0000000d/0004  00000000 00000000 00000000 00000000
+00:00:00.492579 Hst:                00000040 00000400 00000000 00000000
+00:00:00.492580 Gst: 0000000d/0005  00000000 00000000 00000000 00000000
+00:00:00.492580 Hst:                00000000 00000000 00000000 00000000
+00:00:00.492581 Gst: 0000000d/0006  00000000 00000000 00000000 00000000
+00:00:00.492581 Hst:                00000000 00000000 00000000 00000000
+00:00:00.492582 Gst: 0000000d/0007  00000000 00000000 00000000 00000000
+00:00:00.492582 Hst:                00000000 00000000 00000000 00000000
+00:00:00.492583 Gst: 0000000d/0008  00000000 00000000 00000000 00000000
+00:00:00.492583 Hst:                00000080 00000000 00000001 00000000
+00:00:00.492584 Gst: 0000000d/0009  00000000 00000000 00000000 00000000
+00:00:00.492584 Hst:                00000000 00000000 00000000 00000000
+00:00:00.492598 Gst: 0000000e/0000  00000000 00000000 00000000 00000000
+00:00:00.492598 Hst:                00000000 00000000 00000000 00000000
+00:00:00.492599 Gst: 0000000f/0000  00000000 00000000 00000000 00000000
+00:00:00.492599 Hst:                00000000 00000000 00000000 00000000
+00:00:00.492600 Gst: 00000010/0000  00000000 00000000 00000000 00000000
+00:00:00.492600 Hst:                00000000 00000000 00000000 00000000
+00:00:00.492600 Gst: 00000011/0000  00000000 00000000 00000000 00000000
+00:00:00.492601 Hst:                00000000 00000000 00000000 00000000
+00:00:00.492601 Gst: 00000012/0000  00000000 00000000 00000000 00000000
+00:00:00.492602 Hst:                00000000 00000000 00000000 00000000
+00:00:00.492602 Gst: 00000013/0000  00000000 00000000 00000000 00000000
+00:00:00.492603 Hst:                00000000 00000000 00000000 00000000
+00:00:00.492603 Gst: 00000014/0000  00000000 00000000 00000000 00000000
+00:00:00.492604 Hst:                00000001 0000000f 00000007 00000000
+00:00:00.492604 Hst: 00000015/0000  00000002 00000134 00000000 00000000
+00:00:00.492605 Hst: 00000016/0000  00000e74 0000125c 00000064 00000000
+00:00:00.492606                                Name: GenuineIntel
+00:00:00.492607                            Supports: 0x00000000-0x00000016
+00:00:00.492610                              Family:  6 	Extended: 0 	Effective: 6
+00:00:00.492611                               Model: 14 	Extended: 9 	Effective: 158
+00:00:00.492611                            Stepping: 10
+00:00:00.492612                                Type: 0 (primary)
+00:00:00.492612                             APIC ID: 0x00
+00:00:00.492613                        Logical CPUs: 4
+00:00:00.492613                        CLFLUSH Size: 8
+00:00:00.492614                            Brand ID: 0x00
+00:00:00.492614 Features
+00:00:00.492614   Mnemonic - Description                                  = guest (host)
+00:00:00.492617   FPU - x87 FPU on Chip                                   = 1 (1)
+00:00:00.492619   VME - Virtual 8086 Mode Enhancements                    = 1 (1)
+00:00:00.492619   DE - Debugging extensions                               = 1 (1)
+00:00:00.492620   PSE - Page Size Extension                               = 1 (1)
+00:00:00.492620   TSC - Time Stamp Counter                                = 1 (1)
+00:00:00.492621   MSR - Model Specific Registers                          = 1 (1)
+00:00:00.492622   PAE - Physical Address Extension                        = 1 (1)
+00:00:00.492622   MCE - Machine Check Exception                           = 1 (1)
+00:00:00.492623   CX8 - CMPXCHG8B instruction                             = 1 (1)
+00:00:00.492623   APIC - APIC On-Chip                                     = 1 (1)
+00:00:00.492624   SEP - SYSENTER and SYSEXIT Present                      = 1 (1)
+00:00:00.492625   MTRR - Memory Type Range Registers                      = 1 (1)
+00:00:00.492625   PGE - PTE Global Bit                                    = 1 (1)
+00:00:00.492626   MCA - Machine Check Architecture                        = 1 (1)
+00:00:00.492626   CMOV - Conditional Move instructions                    = 1 (1)
+00:00:00.492627   PAT - Page Attribute Table                              = 1 (1)
+00:00:00.492628   PSE-36 - 36-bit Page Size Extension                     = 1 (1)
+00:00:00.492628   PSN - Processor Serial Number                           = 0 (0)
+00:00:00.492629   CLFSH - CLFLUSH instruction                             = 1 (1)
+00:00:00.492629   DS - Debug Store                                        = 0 (1)
+00:00:00.492630   ACPI - Thermal Mon. & Soft. Clock Ctrl.                 = 0 (1)
+00:00:00.492630   MMX - Intel MMX Technology                              = 1 (1)
+00:00:00.492631   FXSR - FXSAVE and FXRSTOR instructions                  = 1 (1)
+00:00:00.492632   SSE - SSE support                                       = 1 (1)
+00:00:00.492633   SSE2 - SSE2 support                                     = 1 (1)
+00:00:00.492633   SS - Self Snoop                                         = 0 (1)
+00:00:00.492634   HTT - Hyper-Threading Technology                        = 1 (1)
+00:00:00.492634   TM - Therm. Monitor                                     = 0 (1)
+00:00:00.492635   PBE - Pending Break Enabled                             = 0 (1)
+00:00:00.492636   SSE3 - SSE3 support                                     = 1 (1)
+00:00:00.492636   PCLMUL - PCLMULQDQ support (for AES-GCM)                = 1 (1)
+00:00:00.492637   DTES64 - DS Area 64-bit Layout                          = 0 (1)
+00:00:00.492637   MONITOR - MONITOR/MWAIT instructions                    = 0 (1)
+00:00:00.492638   CPL-DS - CPL Qualified Debug Store                      = 0 (1)
+00:00:00.492639   VMX - Virtual Machine Extensions                        = 0 (1)
+00:00:00.492639   SMX - Safer Mode Extensions                             = 0 (1)
+00:00:00.492640   EST - Enhanced SpeedStep Technology                     = 0 (1)
+00:00:00.492640   TM2 - Terminal Monitor 2                                = 0 (1)
+00:00:00.492641   SSSE3 - Supplemental Streaming SIMD Extensions 3        = 1 (1)
+00:00:00.492641   CNTX-ID - L1 Context ID                                 = 0 (0)
+00:00:00.492642   SDBG - Silicon Debug interface                          = 0 (1)
+00:00:00.492643   FMA - Fused Multiply Add extensions                     = 0 (1)
+00:00:00.492643   CX16 - CMPXCHG16B instruction                           = 1 (1)
+00:00:00.492644   TPRUPDATE - xTPR Update Control                         = 0 (1)
+00:00:00.492644   PDCM - Perf/Debug Capability MSR                        = 0 (1)
+00:00:00.492645   PCID - Process Context Identifiers                      = 0 (1)
+00:00:00.492645   DCA - Direct Cache Access                               = 0 (0)
+00:00:00.492646   SSE4_1 - SSE4_1 support                                 = 1 (1)
+00:00:00.492647   SSE4_2 - SSE4_2 support                                 = 1 (1)
+00:00:00.492647   X2APIC - x2APIC support                                 = 0 (1)
+00:00:00.492648   MOVBE - MOVBE instruction                               = 1 (1)
+00:00:00.492648   POPCNT - POPCNT instruction                             = 1 (1)
+00:00:00.492649   TSCDEADL - Time Stamp Counter Deadline                  = 0 (1)
+00:00:00.492649   AES - AES instructions                                  = 1 (1)
+00:00:00.492650   XSAVE - XSAVE instruction                               = 1 (1)
+00:00:00.492651   OSXSAVE - OSXSAVE instruction                           = 0 (1)
+00:00:00.492651   AVX - AVX support                                       = 1 (1)
+00:00:00.492652   F16C - 16-bit floating point conversion instructions    = 0 (1)
+00:00:00.492652   RDRAND - RDRAND instruction                             = 1 (1)
+00:00:00.492653   HVP - Hypervisor Present (we're a guest)                = 1 (0)
+00:00:00.492653 Structured Extended Feature Flags Enumeration (leaf 7):
+00:00:00.492654   Mnemonic - Description                                  = guest (host)
+00:00:00.492654   FSGSBASE - RDFSBASE/RDGSBASE/WRFSBASE/WRGSBASE instr.   = 0 (1)
+00:00:00.492655   TSCADJUST - Supports MSR_IA32_TSC_ADJUST                = 0 (1)
+00:00:00.492655    2 - Reserved                                           = 0 (1)
+00:00:00.492656   BMI1 - Advanced Bit Manipulation extension 1            = 0 (1)
+00:00:00.492656   HLE - Hardware Lock Elision                             = 0 (1)
+00:00:00.492657   AVX2 - Advanced Vector Extensions 2                     = 0 (1)
+00:00:00.492658   SMEP - Supervisor Mode Execution Prevention             = 0 (1)
+00:00:00.492658   BMI2 - Advanced Bit Manipulation extension 2            = 0 (1)
+00:00:00.492659   ERMS - Enhanced REP MOVSB/STOSB instructions            = 0 (1)
+00:00:00.492659   INVPCID - INVPCID instruction                           = 0 (1)
+00:00:00.492660   RTM - Restricted Transactional Memory                   = 0 (1)
+00:00:00.492660   PQM - Platform Quality of Service Monitoring            = 0 (0)
+00:00:00.492661   DEPFPU_CS_DS - Deprecates FPU CS, FPU DS values if set  = 1 (1)
+00:00:00.492661   MPE - Intel Memory Protection Extensions                = 0 (1)
+00:00:00.492662   PQE - Platform Quality of Service Enforcement           = 0 (0)
+00:00:00.492662   AVX512F - AVX512 Foundation instructions                = 0 (0)
+00:00:00.492664   RDSEED - RDSEED instruction                             = 1 (1)
+00:00:00.492665   ADX - ADCX/ADOX instructions                            = 0 (1)
+00:00:00.492665   SMAP - Supervisor Mode Access Prevention                = 0 (1)
+00:00:00.492666   CLFLUSHOPT - CLFLUSHOPT (Cache Line Flush) instruction  = 1 (1)
+00:00:00.492666   INTEL_PT - Intel Processor Trace                        = 0 (1)
+00:00:00.492667   AVX512PF - AVX512 Prefetch instructions                 = 0 (0)
+00:00:00.492667   AVX512ER - AVX512 Exponential & Reciprocal instructions = 0 (0)
+00:00:00.492668   AVX512CD - AVX512 Conflict Detection instructions       = 0 (0)
+00:00:00.492668   SHA - Secure Hash Algorithm extensions                  = 0 (0)
+00:00:00.492669   PREFETCHWT1 - PREFETCHWT1 instruction                   = 0 (0)
+00:00:00.492669   PKU - Protection Key for Usermode pages                 = 0 (0)
+00:00:00.492670   OSPKU - CR4.PKU mirror                                  = 0 (0)
+00:00:00.492671   30 - Reserved                                           = 0 (1)
+00:00:00.492671 0xdff2aad8 (0x0)
+00:00:00.492672 Processor Extended State Enumeration (leaf 0xd):
+00:00:00.492672    XSAVE area cur/max size by XCR0, guest: 0x440/0x440
+00:00:00.492673     XSAVE area cur/max size by XCR0, host: 0x440/0x440
+00:00:00.492673                    Valid XCR0 bits, guest: 0x00000000`00000007 ( x87 SSE YMM_Hi128 )
+00:00:00.492675                     Valid XCR0 bits, host: 0x00000000`0000001f ( x87 SSE YMM_Hi128 BNDREGS BNDCSR )
+00:00:00.492676                     XSAVE features, guest:
+00:00:00.492676                      XSAVE features, host: XSAVEOPT XSAVEC XGETBC1 XSAVES
+00:00:00.492677       XSAVE area cur size XCR0|XSS, guest: 0x440
+00:00:00.492678        XSAVE area cur size XCR0|XSS, host: 0x440
+00:00:00.492678                Valid IA32_XSS bits, guest: 0x00000000`00000000
+00:00:00.492679                 Valid IA32_XSS bits, host: 0x00000100`00000000 ( 40 )
+00:00:00.492679   State #2, guest: off=0x0240, cb=0x0100 IA32_XSS-bit -- YMM_Hi128
+00:00:00.492680   State #2, host:  off=0x0240, cb=0x0100 IA32_XSS-bit -- YMM_Hi128
+00:00:00.492681   State #3, host:  off=0x03c0, cb=0x0040 IA32_XSS-bit -- BNDREGS
+00:00:00.492682   State #4, host:  off=0x0400, cb=0x0040 IA32_XSS-bit -- BNDCSR
+00:00:00.492683   State #8, host:  off=0x0000, cb=0x0080 XCR0-bit -- 8
+00:00:00.492690          Unknown CPUID Leaves
+00:00:00.492690      Leaf/sub-leaf  eax      ebx      ecx      edx
+00:00:00.492691 Gst: 00000014/0001  00000000 00000000 00000000 00000000
+00:00:00.492691 Hst:                02490002 003f3fff 00000000 00000000
+00:00:00.492692 Gst: 00000014/0002  00000000 00000000 00000000 00000000
+00:00:00.492693 Hst:                00000000 00000000 00000000 00000000
+00:00:00.492693 Gst: 00000015/0000  00000000 00000000 00000000 00000000
+00:00:00.492694 Hst:                00000002 00000134 00000000 00000000
+00:00:00.492694 Gst: 00000016/0000  00000000 00000000 00000000 00000000
+00:00:00.492695 Hst:                00000e74 0000125c 00000064 00000000
+00:00:00.492696          Raw Hypervisor CPUID Leaves
+00:00:00.492696      Leaf/sub-leaf  eax      ebx      ecx      edx
+00:00:00.492697 Gst: 40000000/0000  40000001 4b4d564b 564b4d56 0000004d
+00:00:00.492697 Hst:                00000e74 0000125c 00000064 00000000
+00:00:00.492698 Gst: 40000001/0000  01000089 00000000 00000000 00000000
+00:00:00.492699 Hst:                00000e74 0000125c 00000064 00000000
+00:00:00.492700          Raw Extended CPUID Leaves
+00:00:00.492700      Leaf/sub-leaf  eax      ebx      ecx      edx
+00:00:00.492700 Gst: 80000000/0000  80000008 00000000 00000000 00000000
+00:00:00.492701 Hst:                80000008 00000000 00000000 00000000
+00:00:00.492701 Gst: 80000001/0000  00000000 00000000 00000121 08100000
+00:00:00.492702 Hst:                00000000 00000000 00000121 2c100800
+00:00:00.492703 Gst: 80000002/0000  65746e49 2952286c 726f4320 4d542865
+00:00:00.492703 Hst:                65746e49 2952286c 726f4320 4d542865
+00:00:00.492704 Gst: 80000003/0000  37692029 3037382d 43204b30 40205550
+00:00:00.492705 Hst:                37692029 3037382d 43204b30 40205550
+00:00:00.492706 Gst: 80000004/0000  372e3320 7a484730 00000000 00000000
+00:00:00.492707 Hst:                372e3320 7a484730 00000000 00000000
+00:00:00.492707 Gst: 80000005/0000  00000000 00000000 00000000 00000000
+00:00:00.492708 Hst:                00000000 00000000 00000000 00000000
+00:00:00.492708 Gst: 80000006/0000  00000000 00000000 01006040 00000000
+00:00:00.492709 Hst:                00000000 00000000 01006040 00000000
+00:00:00.492709 Gst: 80000007/0000  00000000 00000000 00000000 00000100
+00:00:00.492710 Hst:                00000000 00000000 00000000 00000100
+00:00:00.492710 Gst: 80000008/0000  00003027 00000000 00000000 00000000
+00:00:00.492711 Hst:                00003027 00000000 00000000 00000000
+00:00:00.492711 Ext Name:                        
+00:00:00.492712 Ext Supports:                    0x80000000-0x80000008
+00:00:00.492712 Family:                          0  	Extended: 0 	Effective: 0
+00:00:00.492713 Model:                           0  	Extended: 0 	Effective: 0
+00:00:00.492713 Stepping:                        0
+00:00:00.492713 Brand ID:                        0x000
+00:00:00.492714 Ext Features
+00:00:00.492714   Mnemonic - Description                                  = guest (host)
+00:00:00.492714   FPU - x87 FPU on Chip                                   = 0 (0)
+00:00:00.492715   VME - Virtual 8086 Mode Enhancements                    = 0 (0)
+00:00:00.492716   DE - Debugging extensions                               = 0 (0)
+00:00:00.492716   PSE - Page Size Extension                               = 0 (0)
+00:00:00.492717   TSC - Time Stamp Counter                                = 0 (0)
+00:00:00.492717   MSR - K86 Model Specific Registers                      = 0 (0)
+00:00:00.492718   PAE - Physical Address Extension                        = 0 (0)
+00:00:00.492718   MCE - Machine Check Exception                           = 0 (0)
+00:00:00.492719   CX8 - CMPXCHG8B instruction                             = 0 (0)
+00:00:00.492720   APIC - APIC On-Chip                                     = 0 (0)
+00:00:00.492720   SEP - SYSCALL/SYSRET                                    = 0 (1)
+00:00:00.492721   MTRR - Memory Type Range Registers                      = 0 (0)
+00:00:00.492721   PGE - PTE Global Bit                                    = 0 (0)
+00:00:00.492722   MCA - Machine Check Architecture                        = 0 (0)
+00:00:00.492722   CMOV - Conditional Move instructions                    = 0 (0)
+00:00:00.492723   PAT - Page Attribute Table                              = 0 (0)
+00:00:00.492724   PSE-36 - 36-bit Page Size Extension                     = 0 (0)
+00:00:00.492724   NX - No-Execute/Execute-Disable                         = 1 (1)
+00:00:00.492725   AXMMX - AMD Extensions to MMX instructions              = 0 (0)
+00:00:00.492725   MMX - Intel MMX Technology                              = 0 (0)
+00:00:00.492726   FXSR - FXSAVE and FXRSTOR Instructions                  = 0 (0)
+00:00:00.492726   FFXSR - AMD fast FXSAVE and FXRSTOR instructions        = 0 (0)
+00:00:00.492727   Page1GB - 1 GB large page                               = 0 (1)
+00:00:00.492727   RDTSCP - RDTSCP instruction                             = 1 (1)
+00:00:00.492728   LM - AMD64 Long Mode                                    = 0 (1)
+00:00:00.492729   3DNOWEXT - AMD Extensions to 3DNow                      = 0 (0)
+00:00:00.492729   3DNOW - AMD 3DNow                                       = 0 (0)
+00:00:00.492730   LahfSahf - LAHF/SAHF support in 64-bit mode             = 1 (1)
+00:00:00.492730   CmpLegacy - Core multi-processing legacy mode           = 0 (0)
+00:00:00.492731   SVM - AMD VM extensions                                 = 0 (0)
+00:00:00.492731   EXTAPIC - AMD Extended APIC registers                   = 0 (0)
+00:00:00.492732   CR8L - AMD LOCK MOV CR0 means MOV CR8                   = 0 (0)
+00:00:00.492732   ABM - AMD Advanced Bit Manipulation                     = 1 (1)
+00:00:00.492733   SSE4A - SSE4A instructions                              = 0 (0)
+00:00:00.492733   MISALIGNSSE - AMD Misaligned SSE mode                   = 0 (0)
+00:00:00.492734   3DNOWPRF - AMD PREFETCH and PREFETCHW instructions      = 1 (1)
+00:00:00.492734   OSVW - AMD OS Visible Workaround                        = 0 (0)
+00:00:00.492735   IBS - Instruct Based Sampling                           = 0 (0)
+00:00:00.492736   XOP - Extended Operation support                        = 0 (0)
+00:00:00.492736   SKINIT - SKINIT, STGI, and DEV support                  = 0 (0)
+00:00:00.492737   WDT - AMD Watchdog Timer support                        = 0 (0)
+00:00:00.492737   LWP - Lightweight Profiling support                     = 0 (0)
+00:00:00.492738   FMA4 - Four operand FMA instruction support             = 0 (0)
+00:00:00.492738   NodeId - NodeId in MSR C001_100C                        = 0 (0)
+00:00:00.492739   TBM - Trailing Bit Manipulation instructions            = 0 (0)
+00:00:00.492739   TOPOEXT - Topology Extensions                           = 0 (0)
+00:00:00.492740 Full Name:                       "Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz"
+00:00:00.492740 TLB 2/4M Instr/Uni:              res0     0 entries
+00:00:00.492741 TLB 2/4M Data:                   res0     0 entries
+00:00:00.492741 TLB 4K Instr/Uni:                res0     0 entries
+00:00:00.492742 TLB 4K Data:                     res0     0 entries
+00:00:00.492742 L1 Instr Cache Line Size:        0 bytes
+00:00:00.492742 L1 Instr Cache Lines Per Tag:    0
+00:00:00.492743 L1 Instr Cache Associativity:    res0  
+00:00:00.492743 L1 Instr Cache Size:             0 KB
+00:00:00.492743 L1 Data Cache Line Size:         0 bytes
+00:00:00.492744 L1 Data Cache Lines Per Tag:     0
+00:00:00.492744 L1 Data Cache Associativity:     res0  
+00:00:00.492744 L1 Data Cache Size:              0 KB
+00:00:00.492744 L2 TLB 2/4M Instr/Uni:           off       0 entries
+00:00:00.492745 L2 TLB 2/4M Data:                off       0 entries
+00:00:00.492745 L2 TLB 4K Instr/Uni:             off       0 entries
+00:00:00.492745 L2 TLB 4K Data:                  off       0 entries
+00:00:00.492746 L2 Cache Line Size:              0 bytes
+00:00:00.492746 L2 Cache Lines Per Tag:          0
+00:00:00.492746 L2 Cache Associativity:          off   
+00:00:00.492746 L2 Cache Size:                   0 KB
+00:00:00.492747 APM Features:                    TscInvariant
+00:00:00.492747 Host Invariant-TSC support:      true 
+00:00:00.492748 Physical Address Width:          39 bits
+00:00:00.492748 Virtual Address Width:           48 bits
+00:00:00.492749 Guest Physical Address Width:    0 bits
+00:00:00.492749 Physical Core Count:             1
+00:00:00.492750 
+00:00:00.492750 ******************** End of CPUID dump **********************
+00:00:00.508774 VMEmt: Halt method global1 (5)
+00:00:00.508840 VMEmt: HaltedGlobal1 config: cNsSpinBlockThresholdCfg=50000
+00:00:00.508929 Changing the VM state from 'CREATING' to 'CREATED'
+00:00:00.513171 Changing the VM state from 'CREATED' to 'POWERING_ON'
+00:00:00.513259 AIOMgr: Endpoints without assigned bandwidth groups:
+00:00:00.513266 AIOMgr:     C:\Users\thanh\AppData\Local\MobiGame\mobi-android-userdata.vdi
+00:00:00.513270 AIOMgr:     C:\Program Files\MobiGame\android\mobi-android-system.vdi
+00:00:00.513426 Changing the VM state from 'POWERING_ON' to 'RUNNING'
+00:00:00.513435 Console: Machine state changed to 'Running'
+00:00:00.515574 ERROR [COM]: aRC=VBOX_E_FILE_ERROR (0x80bb0004) aIID={c45ce754-f6c2-11e7-aeb4-080027376349} aComponent={ConsoleWrap} aText={Could not find a shared folder named 'mobi_shared'.}, preserve=false aResultDetail=0
+00:00:00.515891 SharedFolders host service: Adding host mapping
+00:00:00.515900     Host path 'C:\Users\thanh\AppData\Local\MobiGame', map name 'mobi_shared', writable, automount=true, create_symlinks=false, missing=false
+00:00:00.517585 VMMDev: Guest Log: BIOS: VirtualBox 5.0.40
+00:00:00.518605 PIT: mode=2 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:00:00.540662 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=720 h=400 bpp=0 cbLine=0x0 flags=0x0
+00:00:00.546259 AHCI#0: Reset the HBA
+00:00:00.546299 AHCI#0: Port 0 reset
+00:00:00.546725 VMMDev: Guest Log: BIOS: AHCI 0-P#0: PCHS=2846/16/63 LCHS=711/64/63 0x00000000002bc800 sectors
+00:00:00.546762 AHCI#0: Port 1 reset
+00:00:00.547192 VMMDev: Guest Log: BIOS: AHCI 1-P#1: PCHS=16383/16/63 LCHS=1024/255/63 0x0000000004000800 sectors
+00:00:00.547624 PIT: mode=2 count=0x48d3 (18643) - 64.00 Hz (ch=0)
+00:00:00.562004 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000008850000 w=640 h=480 bpp=32 cbLine=0xA00 flags=0x0
+00:00:00.576207 PIT: mode=2 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:00:00.576379 VMMDev: Guest Log: BIOS: Boot : bseqnr=1, bootseq=0231
+00:00:00.576523 VMMDev: Guest Log: BIOS: Boot from Floppy 0 failed
+00:00:00.576687 VMMDev: Guest Log: BIOS: Boot : bseqnr=2, bootseq=0023
+00:00:00.576849 VMMDev: Guest Log: BIOS: CDROM boot failure code : 0002
+00:00:00.576978 VMMDev: Guest Log: BIOS: Boot from CD-ROM failed
+00:00:00.577135 VMMDev: Guest Log: BIOS: Boot : bseqnr=3, bootseq=0002
+00:00:00.577570 VMMDev: Guest Log: BIOS: Booting from Hard Disk...
+00:00:00.583471 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=720 h=400 bpp=0 cbLine=0x0 flags=0x0
+00:00:01.203989 PIT: mode=2 count=0x4a9 (1193) - 1000.15 Hz (ch=0)
+00:00:01.377931 PIT: mode=0 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:00:01.558512 IEM: rdmsr(0x64e) -> #GP(0)
+00:00:01.558691 IEM: rdmsr(0x34) -> #GP(0)
+00:00:02.527412 VBoxMobiDevice: Reset triggered
+00:00:02.546715 AHCI#0: Reset the HBA
+00:00:02.548101 AHCI#0: Port 0 reset
+00:00:03.096617 AHCI#0: Port 1 reset
+00:00:03.656433 AIOMgr: Async flushes not supported
+00:00:03.709710 VBoxMobiDevice: Driver became ready!
+00:00:03.716447 VMMDev: Guest Additions information report: Version 5.0.40 r115130 '5.0.40'
+00:00:03.716473 VMMDev: Guest Additions information report: Interface = 0x00010004 osType = 0x00053000 (Linux >= 2.6, 32-bit)
+00:00:03.716542 VMMDev: Guest Additions capability report: (0x0 -> 0x0) seamless: no, hostWindowMapping: no, graphics: no
+00:00:03.716605 VMMDev: Guest reported fixed hypervisor window at 000f4400000 LB 0x2400000 (rc=VINF_SUCCESS)
+00:00:03.716624 VMMDev: vmmDevReqHandler_HeartbeatConfigure: No change (fHeartbeatActive=false).
+00:00:03.716636 VMMDev: Heartbeat flatline timer set to trigger after 4 000 000 000 ns
+00:00:03.716659 VMMDev: Guest Log: vgdrvHeartbeatInit: Setting up heartbeat to trigger every 2000 milliseconds
+00:00:03.716783 VMMDev: Guest Log: vboxguest: misc device minor 51, IRQ 20, I/O port d020, MMIO at 00000000f0000000 (size 0x400000)
+00:00:03.729282 IEM: rdmsr(0x611) -> #GP(0)
+00:00:03.729323 IEM: rdmsr(0x639) -> #GP(0)
+00:00:03.729353 IEM: rdmsr(0x641) -> #GP(0)
+00:00:03.729382 IEM: rdmsr(0x619) -> #GP(0)
+00:00:03.756386 IEM: rdmsr(0x611) -> #GP(0)
+00:00:03.756431 IEM: rdmsr(0x639) -> #GP(0)
+00:00:03.756460 IEM: rdmsr(0x641) -> #GP(0)
+00:00:03.756489 IEM: rdmsr(0x619) -> #GP(0)
+00:00:04.828814 VBoxMobiDevice: CMD: connect 0
+00:00:04.829068 VBoxMobiDevice: Connect success!
+00:00:04.829117 VBoxMobiDevice: Connected successfully 0
+00:00:04.829231 VBoxMobiDevice: Read thread started! 0
+00:00:04.831621 NAT: Old socket recv size: 64KB
+00:00:04.831634 NAT: Old socket send size: 64KB
+00:00:05.965649 VBoxMobiDevice: CMD: connect 1
+00:00:05.965863 VBoxMobiDevice: Connect success!
+00:00:05.965911 VBoxMobiDevice: Connected successfully 1
+00:00:05.966034 VBoxMobiDevice: Read thread started! 1
+00:00:06.039043 VBoxMobiDevice: CMD: connect 2
+00:00:06.039266 VBoxMobiDevice: Connect success!
+00:00:06.039320 VBoxMobiDevice: Connected successfully 2
+00:00:06.039417 VBoxMobiDevice: Read thread started! 2
+00:00:06.418759 VBoxMobiDevice: CMD: connect 3
+00:00:06.419002 VBoxMobiDevice: Connect success!
+00:00:06.419053 VBoxMobiDevice: Connected successfully 3
+00:00:06.419143 VBoxMobiDevice: Read thread started! 3
+00:00:35.238394 VBoxMobiDevice: CMD: connect 4
+00:00:35.238607 VBoxMobiDevice: Connect success!
+00:00:35.238675 VBoxMobiDevice: Connected successfully 4
+00:00:35.238764 VBoxMobiDevice: Read thread started! 4
+00:00:35.424574 NAT: IPv6 not supported
+00:00:35.425894 VBoxMobiDevice: CMD: disconnect 4
+00:00:35.425976 VBoxMobiDevice: Read thread quits 4
+00:00:35.426011 VBoxMobiDevice: CMD: finalize 4
+00:00:35.445412 NAT: DHCP offered IP address 10.0.2.15
+00:00:35.446210 NAT: DHCP offered IP address 10.0.2.15
+00:00:35.477087 VBoxMobiDevice: CMD: connect 5
+00:00:35.477301 VBoxMobiDevice: Connect success!
+00:00:35.477352 VBoxMobiDevice: Connected successfully 5
+00:00:35.477492 VBoxMobiDevice: Read thread started! 5
+00:00:35.556808 VBoxMobiDevice: CMD: connect 6
+00:00:35.557025 VBoxMobiDevice: Connect success!
+00:00:35.557083 VBoxMobiDevice: Connected successfully 6
+00:00:35.557182 VBoxMobiDevice: Read thread started! 6
+00:00:35.665487 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 6
+00:00:35.726986 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 6
+00:00:35.787466 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 6
+00:00:35.845781 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 6
+00:00:36.865473 VBoxMobiDevice: CMD: connect 7
+00:00:36.865684 VBoxMobiDevice: Connect success!
+00:00:36.865733 VBoxMobiDevice: Connected successfully 7
+00:00:36.865816 VBoxMobiDevice: Read thread started! 7
+00:00:37.071698 VBoxMobiDevice: CMD: connect 8
+00:00:37.071920 VBoxMobiDevice: Connect success!
+00:00:37.071978 VBoxMobiDevice: Connected successfully 8
+00:00:37.072067 VBoxMobiDevice: Read thread started! 8
+00:00:37.268396 VBoxMobiDevice: CMD: connect 9
+00:00:37.268608 VBoxMobiDevice: Connect success!
+00:00:37.268671 VBoxMobiDevice: Connected successfully 9
+00:00:37.268805 VBoxMobiDevice: Read thread started! 9
+00:00:37.760189 VBoxMobiDevice: CMD: disconnect 1
+00:00:37.760314 VBoxMobiDevice: Read thread quits 1
+00:00:37.760328 VBoxMobiDevice: CMD: finalize 1
+00:00:39.672147 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 9
+00:00:39.730679 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 9
+00:00:39.742285 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 9
+00:00:39.794282 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 9
+00:00:40.402589 VBoxMobiDevice: CMD: connect 10
+00:00:40.402820 VBoxMobiDevice: Connect success!
+00:00:40.402871 VBoxMobiDevice: Connected successfully 10
+00:00:40.403000 VBoxMobiDevice: Read thread started! 10
+00:00:40.471223 VBoxMobiDevice: CMD: connect 11
+00:00:40.471427 VBoxMobiDevice: Connect success!
+00:00:40.471474 VBoxMobiDevice: Connected successfully 11
+00:00:40.471574 VBoxMobiDevice: Read thread started! 11
+00:00:40.714988 VBoxMobiDevice: CMD: connect 12
+00:00:40.715188 VBoxMobiDevice: Connect success!
+00:00:40.715238 VBoxMobiDevice: Connected successfully 12
+00:00:40.715318 VBoxMobiDevice: Read thread started! 12
+00:00:40.780833 VBoxMobiDevice: CMD: disconnect 12
+00:00:40.780952 VBoxMobiDevice: Read thread quits 12
+00:00:40.780966 VBoxMobiDevice: CMD: finalize 12
+00:00:40.845070 VBoxMobiDevice: CMD: connect 13
+00:00:40.845307 VBoxMobiDevice: Connect success!
+00:00:40.845362 VBoxMobiDevice: Connected successfully 13
+00:00:40.845443 VBoxMobiDevice: Read thread started! 13
+00:00:40.908081 VBoxMobiDevice: CMD: disconnect 13
+00:00:40.908238 VBoxMobiDevice: Read thread quits 13
+00:00:40.908259 VBoxMobiDevice: CMD: finalize 13
+00:00:40.995056 VBoxMobiDevice: CMD: connect 14
+00:00:40.995303 VBoxMobiDevice: Connect success!
+00:00:40.995361 VBoxMobiDevice: Connected successfully 14
+00:00:40.995474 VBoxMobiDevice: Read thread started! 14
+00:00:41.394793 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 9
+00:00:41.453502 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 9
+00:00:41.649905 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 9
+00:00:41.660524 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 9
+00:00:41.671273 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 9
+00:00:41.682000 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 9
+00:00:41.692759 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 9
+00:00:41.703465 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 9
+00:00:41.714205 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 9
+00:00:41.724937 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 9
+00:00:41.735695 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 9
+00:00:41.746409 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 9
+00:00:41.757150 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 9
+00:00:41.767884 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 9
+00:00:41.845094 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 9
+00:00:41.970267 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 9
+00:00:41.980656 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 9
+00:00:41.991400 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 9
+00:00:42.061070 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 9
+00:00:42.123516 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 9
+00:00:43.507462 VBoxMobiDevice: CMD: connect 15
+00:00:43.507703 VBoxMobiDevice: Connect success!
+00:00:43.507756 VBoxMobiDevice: Connected successfully 15
+00:00:43.507917 VBoxMobiDevice: Read thread started! 15
+00:00:43.583172 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 15
+00:00:43.647955 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 15
+00:00:43.709926 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 15
+00:00:43.779847 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 15
+00:00:43.790266 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 15
+00:00:43.800999 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 15
+00:00:43.811736 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 15
+00:00:43.822472 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 15
+00:00:43.833212 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 15
+00:00:43.843954 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 15
+00:00:43.920112 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 15
+00:00:47.015874 VBoxMobiDevice: CMD: connect 16
+00:00:47.016105 VBoxMobiDevice: Connect success!
+00:00:47.016151 VBoxMobiDevice: Connected successfully 16
+00:00:47.016233 VBoxMobiDevice: Read thread started! 16
+00:00:47.166381 VBoxMobiDevice: CMD: connect 17
+00:00:47.166609 VBoxMobiDevice: Connect success!
+00:00:47.166657 VBoxMobiDevice: Connected successfully 17
+00:00:47.166735 VBoxMobiDevice: Read thread started! 17
+00:00:47.703839 VBoxMobiDevice: CMD: disconnect 15
+00:00:47.703992 VBoxMobiDevice: Read thread quits 15
+00:00:47.704076 VBoxMobiDevice: CMD: finalize 15
+00:00:47.704838 VBoxMobiDevice: CMD: connect 18
+00:00:47.705110 VBoxMobiDevice: Connect success!
+00:00:47.705166 VBoxMobiDevice: Connected successfully 18
+00:00:47.705266 VBoxMobiDevice: Read thread started! 18
+00:00:47.793452 VBoxMobiDevice: CMD: disconnect 18
+00:00:47.793594 VBoxMobiDevice: Read thread quits 18
+00:00:47.793726 VBoxMobiDevice: CMD: finalize 18
+00:00:47.914779 VBoxMobiDevice: CMD: connect 19
+00:00:47.914976 VBoxMobiDevice: Connect success!
+00:00:47.915026 VBoxMobiDevice: Connected successfully 19
+00:00:47.915181 VBoxMobiDevice: Read thread started! 19
+00:00:48.010112 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 19
+00:00:48.077429 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 19
+00:00:48.090876 VBoxMobiDevice: CMD: disconnect 19
+00:00:48.090977 VBoxMobiDevice: Read thread quits 19
+00:00:48.090993 VBoxMobiDevice: CMD: finalize 19
+00:00:48.091692 VBoxMobiDevice: CMD: connect 20
+00:00:48.091939 VBoxMobiDevice: Connect success!
+00:00:48.092017 VBoxMobiDevice: Connected successfully 20
+00:00:48.092163 VBoxMobiDevice: Read thread started! 20
+00:00:48.161052 VBoxMobiDevice: CMD: disconnect 20
+00:00:48.161178 VBoxMobiDevice: Read thread quits 20
+00:00:48.161198 VBoxMobiDevice: CMD: finalize 20
+00:00:48.173317 VBoxMobiDevice: CMD: connect 21
+00:00:48.173569 VBoxMobiDevice: Connect success!
+00:00:48.173632 VBoxMobiDevice: Connected successfully 21
+00:00:48.173739 VBoxMobiDevice: Read thread started! 21
+00:00:48.178494 VBoxMobiDevice: CMD: connect 22
+00:00:48.178751 VBoxMobiDevice: Connect success!
+00:00:48.178821 VBoxMobiDevice: Connected successfully 22
+00:00:48.178927 VBoxMobiDevice: Read thread started! 22
+00:00:48.381608 VBoxMobiDevice: CMD: connect 23
+00:00:48.381835 VBoxMobiDevice: Connect success!
+00:00:48.381904 VBoxMobiDevice: Connected successfully 23
+00:00:48.382027 VBoxMobiDevice: Read thread started! 23
+00:00:48.599451 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 23
+00:00:48.609580 VBoxMobiDevice: Buffer overflown! Retrying in 10ms 23
+00:00:53.023545 VBoxMobiDevice: CMD: connect 24
+00:00:53.023774 VBoxMobiDevice: Connect success!
+00:00:53.023829 VBoxMobiDevice: Connected successfully 24
+00:00:53.023924 VBoxMobiDevice: Read thread started! 24
+00:01:01.326549 VBoxMobiDevice: CMD: connect 25
+00:01:01.326778 VBoxMobiDevice: Connect success!
+00:01:01.326831 VBoxMobiDevice: Connected successfully 25
+00:01:01.326971 VBoxMobiDevice: Read thread started! 25
+00:01:03.288258 VBoxMobiDevice: CMD: connect 26
+00:01:03.288479 VBoxMobiDevice: Connect success!
+00:01:03.288532 VBoxMobiDevice: Connected successfully 26
+00:01:03.288623 VBoxMobiDevice: Read thread started! 26
+00:01:05.127945 VBoxMobiDevice: CMD: disconnect 26
+00:01:05.128102 VBoxMobiDevice: Read thread quits 26
+00:01:05.128120 VBoxMobiDevice: CMD: finalize 26
+00:01:05.852838 VBoxMobiDevice: CMD: connect 27
+00:01:05.853069 VBoxMobiDevice: Connect success!
+00:01:05.853123 VBoxMobiDevice: Connected successfully 27
+00:01:05.853229 VBoxMobiDevice: Read thread started! 27
+00:01:08.560867 VBoxMobiDevice: CMD: connect 28
+00:01:08.561078 VBoxMobiDevice: Connect success!
+00:01:08.561132 VBoxMobiDevice: Connected successfully 28
+00:01:08.561230 VBoxMobiDevice: Read thread started! 28
+00:01:14.514061 VBoxMobiDevice: CMD: connect 29
+00:01:14.514294 VBoxMobiDevice: Connect success!
+00:01:14.514353 VBoxMobiDevice: Connected successfully 29
+00:01:14.514454 VBoxMobiDevice: Read thread started! 29
+00:01:15.123770 VBoxMobiDevice: CMD: connect 30
+00:01:15.124007 VBoxMobiDevice: Connect success!
+00:01:15.124060 VBoxMobiDevice: Connected successfully 30
+00:01:15.124229 VBoxMobiDevice: Read thread started! 30
+00:01:28.484387 VBoxMobiDevice: CMD: connect 31
+00:01:28.484612 VBoxMobiDevice: Connect success!
+00:01:28.484664 VBoxMobiDevice: Connected successfully 31
+00:01:28.484753 VBoxMobiDevice: Read thread started! 31
+00:01:32.024452 VBoxMobiDevice: CMD: connect 32
+00:01:32.024690 VBoxMobiDevice: Connect success!
+00:01:32.024745 VBoxMobiDevice: Connected successfully 32
+00:01:32.024829 VBoxMobiDevice: Read thread started! 32
+00:01:59.807724 VBoxMobiDevice: CMD: disconnect 21
+00:01:59.807837 VBoxMobiDevice: Read thread quits 21
+00:01:59.807848 VBoxMobiDevice: CMD: disconnect 17
+00:01:59.807960 VBoxMobiDevice: Read thread quits 17
+00:01:59.807979 VBoxMobiDevice: CMD: finalize 21
+00:01:59.808016 VBoxMobiDevice: CMD: finalize 17
+00:01:59.808267 VBoxMobiDevice: CMD: disconnect 16
+00:01:59.808425 VBoxMobiDevice: CMD: finalize 16
+00:01:59.808434 VBoxMobiDevice: Read thread quits 16
+00:01:59.826155 Changing the VM state from 'RUNNING' to 'SUSPENDING'
+00:01:59.832737 AIOMgr: Endpoint for file 'C:\Program Files\MobiGame\android\mobi-android-system.vdi' (flags 000c0781) created successfully
+00:01:59.838645 AIOMgr: Endpoint for file 'C:\Users\thanh\AppData\Local\MobiGame\mobi-android-userdata.vdi' (flags 000c0781) created successfully
+00:01:59.839330 VBoxMobiDevice: Suspending device.
+00:01:59.928076 PDMR3Suspend: 101 867 870 ns run time
+00:01:59.928088 Changing the VM state from 'SUSPENDING' to 'SUSPENDED'
+00:01:59.928097 Console: Machine state changed to 'Paused'
+00:02:22.096604 VBoxMobiDevice: Host disconnected
+00:02:22.096625 VBoxMobiDevice: Read thread quits 31
+00:02:22.104515 VBoxMobiDevice: Host disconnected
+00:02:22.104531 VBoxMobiDevice: Read thread quits 0
+00:02:22.104554 VBoxMobiDevice: Host disconnected
+00:02:22.104563 VBoxMobiDevice: Read thread quits 11
+00:02:22.104582 VBoxMobiDevice: Host disconnected
+00:02:22.104594 VBoxMobiDevice: Read thread quits 2
+00:02:22.104654 VBoxMobiDevice: Host disconnected
+00:02:22.104713 VBoxMobiDevice: Host disconnected
+00:02:22.104730 VBoxMobiDevice: Read thread quits 14
+00:02:22.104748 VBoxMobiDevice: Read thread quits 10
+00:02:22.104796 VBoxMobiDevice: Host disconnected
+00:02:22.104849 VBoxMobiDevice: Host disconnected
+00:02:22.104876 VBoxMobiDevice: Host disconnected
+00:02:22.104892 VBoxMobiDevice: Read thread quits 7
+00:02:22.104915 VBoxMobiDevice: Host disconnected
+00:02:22.104933 VBoxMobiDevice: Read thread quits 3
+00:02:22.104948 VBoxMobiDevice: Host disconnected
+00:02:22.104978 VBoxMobiDevice: Read thread quits 6
+00:02:22.104997 VBoxMobiDevice: Host disconnected
+00:02:22.105039 VBoxMobiDevice: Read thread quits 5
+00:02:22.105056 VBoxMobiDevice: Read thread quits 8
+00:02:22.105081 VBoxMobiDevice: Host disconnected
+00:02:22.105095 VBoxMobiDevice: Read thread quits 9
+00:02:22.105114 VBoxMobiDevice: Host disconnected
+00:02:22.105129 VBoxMobiDevice: Read thread quits 23
+00:02:22.105145 VBoxMobiDevice: Read thread quits 22
+00:02:22.105201 VBoxMobiDevice: Host disconnected
+00:02:22.105208 VBoxMobiDevice: Read thread quits 25
+00:02:22.105451 VBoxMobiDevice: Host disconnected
+00:02:22.105473 VBoxMobiDevice: Read thread quits 29
+00:02:22.105505 VBoxMobiDevice: Host disconnected
+00:02:22.105522 VBoxMobiDevice: Read thread quits 28
+00:02:22.105628 VBoxMobiDevice: Host disconnected
+00:02:22.105635 VBoxMobiDevice: Read thread quits 30
+00:02:22.105695 VBoxMobiDevice: Host disconnected
+00:02:22.105706 VBoxMobiDevice: Read thread quits 27
+00:02:22.105840 VBoxMobiDevice: Host disconnected
+00:02:22.105847 VBoxMobiDevice: Read thread quits 24
+00:02:22.105944 VBoxMobiDevice: Host disconnected
+00:02:22.105953 VBoxMobiDevice: Read thread quits 32
