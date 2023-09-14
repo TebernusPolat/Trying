@@ -24,6 +24,10 @@ public class Homework4pt2 extends BaseClass {
 		tearDown();
 	 ahmet abi bizimleydi kankam
 		 fsafasfasfasfsafsafasfasfasfasfasfasfa
+		 
+		 
+		 
+		 FASULYENIN FAYDALARINI KONUSTUGUMUZ 3.BOLUME HOS GELDINIZ
 	}
 
 }
