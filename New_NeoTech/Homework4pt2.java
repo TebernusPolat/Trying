@@ -24,7 +24,7 @@ public class Homework4pt2 extends BaseClass {
 		tearDown();
 	 ahmet abi bizimleydi kankam
 		 fsafasfasfasfsafsafasfasfasfasfasfasfa
-		 
+		 nvbhmnvbmnbnm
 		 
 		  NOLUYOR BE AW  BU NEDIR KARDESSSSSSSSSSSSSSSSSSSSSSSSS 
 		 
